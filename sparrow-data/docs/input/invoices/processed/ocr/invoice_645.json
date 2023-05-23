@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -211,7 +211,7 @@
                             "words": [
                                 {
                                     "value": "Seller:",
-                                    "confidence": 0.9407179951667786,
+                                    "confidence": 0.9407176375389099,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Thomas-Moore",
-                                    "confidence": 0.6988170742988586,
+                                    "confidence": 0.6988187432289124,
                                     "geometry": [
                                         [
                                             0.0830078125,
@@ -323,7 +323,7 @@
                             "words": [
                                 {
                                     "value": "Port",
-                                    "confidence": 0.986086905002594,
+                                    "confidence": 0.9860868453979492,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -463,7 +463,7 @@
                                 },
                                 {
                                     "value": "GB26DI0X99480612156870",
-                                    "confidence": 0.6817348003387451,
+                                    "confidence": 0.6817315220832825,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -604,7 +604,7 @@
                             "words": [
                                 {
                                     "value": "Vilanueva-Gonzalez",
-                                    "confidence": 0.6416448354721069,
+                                    "confidence": 0.6416430473327637,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -646,7 +646,7 @@
                                 },
                                 {
                                     "value": "8101,",
-                                    "confidence": 0.99861741065979,
+                                    "confidence": 0.9986175298690796,
                                     "geometry": [
                                         [
                                             0.541015625,
@@ -772,7 +772,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.909054160118103,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -1154,7 +1154,7 @@
                                 },
                                 {
                                     "value": "Beyblade",
-                                    "confidence": 0.9812250733375549,
+                                    "confidence": 0.9812249541282654,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1238,7 +1238,7 @@
                                 },
                                 {
                                     "value": "Valkyrie.Ev'",
-                                    "confidence": 0.7285365462303162,
+                                    "confidence": 0.7285357713699341,
                                     "geometry": [
                                         [
                                             0.1865234375,
@@ -1294,7 +1294,7 @@
                             "words": [
                                 {
                                     "value": "/Launcher",
-                                    "confidence": 0.9897651672363281,
+                                    "confidence": 0.9897652864456177,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1379,7 +1379,7 @@
                             "words": [
                                 {
                                     "value": "11,59",
-                                    "confidence": 0.9803497791290283,
+                                    "confidence": 0.980350136756897,
                                     "geometry": [
                                         [
                                             0.5751953125,
@@ -1508,7 +1508,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9961697459220886,
+                                    "confidence": 0.9961695075035095,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1565,7 +1565,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9649435877799988,
+                                    "confidence": 0.964943528175354,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1593,7 +1593,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.8173165917396545,
+                                    "confidence": 0.8173180222511292,
                                     "geometry": [
                                         [
                                             0.4033203125,
@@ -1706,7 +1706,7 @@
                             "words": [
                                 {
                                     "value": "$",
-                                    "confidence": 0.9005351066589355,
+                                    "confidence": 0.900534451007843,
                                     "geometry": [
                                         [
                                             0.5791015625,

@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -267,7 +267,7 @@
                             "words": [
                                 {
                                     "value": "844",
-                                    "confidence": 0.9888619780540466,
+                                    "confidence": 0.9888620972633362,
                                     "geometry": [
                                         [
                                             0.083984375,
@@ -351,7 +351,7 @@
                             "words": [
                                 {
                                     "value": "Barrfurt,",
-                                    "confidence": 0.9874356985092163,
+                                    "confidence": 0.9874359369277954,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -576,7 +576,7 @@
                             "words": [
                                 {
                                     "value": "Weber-Rodriguez",
-                                    "confidence": 0.5713523030281067,
+                                    "confidence": 0.5713509321212769,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -618,7 +618,7 @@
                                 },
                                 {
                                     "value": "Casey",
-                                    "confidence": 0.9098609685897827,
+                                    "confidence": 0.9098628759384155,
                                     "geometry": [
                                         [
                                             0.541015625,
@@ -632,7 +632,7 @@
                                 },
                                 {
                                     "value": "Stravenue",
-                                    "confidence": 0.98207688331604,
+                                    "confidence": 0.9820767641067505,
                                     "geometry": [
                                         [
                                             0.59765625,
@@ -688,7 +688,7 @@
                             "words": [
                                 {
                                     "value": "South",
-                                    "confidence": 0.979142427444458,
+                                    "confidence": 0.9791423082351685,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -772,7 +772,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -984,7 +984,7 @@
                                 },
                                 {
                                     "value": "each",
-                                    "confidence": 0.9996672868728638,
+                                    "confidence": 0.9996671676635742,
                                     "geometry": [
                                         [
                                             0.46484375,
@@ -1449,7 +1449,7 @@
                                 },
                                 {
                                     "value": "Furniture",
-                                    "confidence": 0.9886283278465271,
+                                    "confidence": 0.9886283874511719,
                                     "geometry": [
                                         [
                                             0.1796875,
@@ -1533,7 +1533,7 @@
                                 },
                                 {
                                     "value": "Decoration",
-                                    "confidence": 0.970819890499115,
+                                    "confidence": 0.9708196520805359,
                                     "geometry": [
                                         [
                                             0.2314453125,
@@ -1673,7 +1673,7 @@
                                 },
                                 {
                                     "value": "coffe",
-                                    "confidence": 0.9987278580665588,
+                                    "confidence": 0.9987277388572693,
                                     "geometry": [
                                         [
                                             0.208984375,
@@ -1729,7 +1729,7 @@
                             "words": [
                                 {
                                     "value": "Nakashima",
-                                    "confidence": 0.9618549346923828,
+                                    "confidence": 0.9618552327156067,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1827,7 +1827,7 @@
                                 },
                                 {
                                     "value": "Art",
-                                    "confidence": 0.5997315049171448,
+                                    "confidence": 0.5997164249420166,
                                     "geometry": [
                                         [
                                             0.302734375,
@@ -1925,7 +1925,7 @@
                             "words": [
                                 {
                                     "value": "Kitchen",
-                                    "confidence": 0.6380934715270996,
+                                    "confidence": 0.6380886435508728,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1981,7 +1981,7 @@
                                 },
                                 {
                                     "value": "Inches",
-                                    "confidence": 0.9725755453109741,
+                                    "confidence": 0.972575306892395,
                                     "geometry": [
                                         [
                                             0.291015625,
@@ -2052,7 +2052,7 @@
                             "words": [
                                 {
                                     "value": "2:599,00",
-                                    "confidence": 0.6868895292282104,
+                                    "confidence": 0.6868897676467896,
                                     "geometry": [
                                         [
                                             0.55078125,
@@ -2095,7 +2095,7 @@
                             "words": [
                                 {
                                     "value": "297,00",
-                                    "confidence": 0.9645521640777588,
+                                    "confidence": 0.9645517468452454,
                                     "geometry": [
                                         [
                                             0.66796875,
@@ -2464,7 +2464,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.9964274764060974,
+                                    "confidence": 0.996427595615387,
                                     "geometry": [
                                         [
                                             0.4033203125,
@@ -2521,7 +2521,7 @@
                                 },
                                 {
                                     "value": "worth",
-                                    "confidence": 0.9275442361831665,
+                                    "confidence": 0.9275425672531128,
                                     "geometry": [
                                         [
                                             0.5927734375,
@@ -2619,7 +2619,7 @@
                                 },
                                 {
                                     "value": "776,00",
-                                    "confidence": 0.9708516597747803,
+                                    "confidence": 0.9708515405654907,
                                     "geometry": [
                                         [
                                             0.5849609375,
@@ -2902,7 +2902,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.6179714798927307,
+                                    "confidence": 0.6179827451705933,
                                     "geometry": [
                                         [
                                             0.3017578125,

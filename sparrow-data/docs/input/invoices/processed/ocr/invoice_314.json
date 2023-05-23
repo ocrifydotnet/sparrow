@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -168,7 +168,7 @@
                             "words": [
                                 {
                                     "value": "05/12/2018",
-                                    "confidence": 0.7952733039855957,
+                                    "confidence": 0.7952752113342285,
                                     "geometry": [
                                         [
                                             0.4853515625,
@@ -337,7 +337,7 @@
                             "words": [
                                 {
                                     "value": "Fernandezmouth,",
-                                    "confidence": 0.7111013531684875,
+                                    "confidence": 0.7111017107963562,
                                     "geometry": [
                                         [
                                             0.0859375,
@@ -421,7 +421,7 @@
                                 },
                                 {
                                     "value": "921-82-8396",
-                                    "confidence": 0.9979052543640137,
+                                    "confidence": 0.9979053735733032,
                                     "geometry": [
                                         [
                                             0.1474609375,
@@ -773,7 +773,7 @@
                             "words": [
                                 {
                                     "value": "Northjoelhaven,",
-                                    "confidence": 0.939690113067627,
+                                    "confidence": 0.9396904110908508,
                                     "geometry": [
                                         [
                                             0.5048828125,
@@ -843,7 +843,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -998,7 +998,7 @@
                                 },
                                 {
                                     "value": "each",
-                                    "confidence": 0.9996672868728638,
+                                    "confidence": 0.9996671676635742,
                                     "geometry": [
                                         [
                                             0.46484375,
@@ -1701,7 +1701,7 @@
                                 },
                                 {
                                     "value": "YILONG",
-                                    "confidence": 0.8566038012504578,
+                                    "confidence": 0.8566075563430786,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1715,7 +1715,7 @@
                                 },
                                 {
                                     "value": "4'x6'",
-                                    "confidence": 0.9737153053283691,
+                                    "confidence": 0.9737154245376587,
                                     "geometry": [
                                         [
                                             0.1982421875,
@@ -1729,7 +1729,7 @@
                                 },
                                 {
                                     "value": "Handmade",
-                                    "confidence": 0.9770859479904175,
+                                    "confidence": 0.9770860075950623,
                                     "geometry": [
                                         [
                                             0.2353515625,
@@ -1841,7 +1841,7 @@
                             "words": [
                                 {
                                     "value": "Silk",
-                                    "confidence": 0.9769514203071594,
+                                    "confidence": 0.976951539516449,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1911,7 +1911,7 @@
                                 },
                                 {
                                     "value": "Yilong",
-                                    "confidence": 0.7518947720527649,
+                                    "confidence": 0.751896858215332,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1925,7 +1925,7 @@
                                 },
                                 {
                                     "value": "8x10ft",
-                                    "confidence": 0.9807140231132507,
+                                    "confidence": 0.9807137846946716,
                                     "geometry": [
                                         [
                                             0.189453125,
@@ -1995,7 +1995,7 @@
                                 },
                                 {
                                     "value": "Carpets",
-                                    "confidence": 0.9993816614151001,
+                                    "confidence": 0.9993815422058105,
                                     "geometry": [
                                         [
                                             0.181640625,
@@ -2065,7 +2065,7 @@
                                 },
                                 {
                                     "value": "Villa",
-                                    "confidence": 0.7741146087646484,
+                                    "confidence": 0.7741166353225708,
                                     "geometry": [
                                         [
                                             0.1982421875,
@@ -2205,7 +2205,7 @@
                             "words": [
                                 {
                                     "value": "Contemporary",
-                                    "confidence": 0.9793983101844788,
+                                    "confidence": 0.9793981909751892,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -2219,7 +2219,7 @@
                                 },
                                 {
                                     "value": "LivingaBedroom;",
-                                    "confidence": 0.2821422815322876,
+                                    "confidence": 0.28214147686958313,
                                     "geometry": [
                                         [
                                             0.244140625,
@@ -2289,7 +2289,7 @@
                                 },
                                 {
                                     "value": ",Carpet",
-                                    "confidence": 0.8100934028625488,
+                                    "confidence": 0.810093343257904,
                                     "geometry": [
                                         [
                                             0.259765625,
@@ -2317,7 +2317,7 @@
                             "words": [
                                 {
                                     "value": "120x80cm",
-                                    "confidence": 0.7177366018295288,
+                                    "confidence": 0.7177371382713318,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -2471,7 +2471,7 @@
                                 },
                                 {
                                     "value": "wall",
-                                    "confidence": 0.9917901754379272,
+                                    "confidence": 0.9917900562286377,
                                     "geometry": [
                                         [
                                             0.216796875,
@@ -2667,7 +2667,7 @@
                                 },
                                 {
                                     "value": "Round",
-                                    "confidence": 0.8902161121368408,
+                                    "confidence": 0.8902157545089722,
                                     "geometry": [
                                         [
                                             0.30859375,
@@ -2695,7 +2695,7 @@
                             "words": [
                                 {
                                     "value": "Bohemian",
-                                    "confidence": 0.9123592972755432,
+                                    "confidence": 0.9123589992523193,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -2709,7 +2709,7 @@
                                 },
                                 {
                                     "value": "Style",
-                                    "confidence": 0.9198111891746521,
+                                    "confidence": 0.9198139905929565,
                                     "geometry": [
                                         [
                                             0.216796875,
@@ -3101,7 +3101,7 @@
                                 },
                                 {
                                     "value": "Fluffy",
-                                    "confidence": 0.9386399388313293,
+                                    "confidence": 0.9386397004127502,
                                     "geometry": [
                                         [
                                             0.3037109375,
@@ -3368,7 +3368,7 @@
                                 },
                                 {
                                     "value": "088,00",
-                                    "confidence": 0.976707398891449,
+                                    "confidence": 0.9767073392868042,
                                     "geometry": [
                                         [
                                             0.857421875,
@@ -3918,7 +3918,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9980044960975647,
+                                    "confidence": 0.9980046153068542,
                                     "geometry": [
                                         [
                                             0.4208984375,
@@ -4356,7 +4356,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.9637071490287781,
+                                    "confidence": 0.9637073278427124,
                                     "geometry": [
                                         [
                                             0.3017578125,

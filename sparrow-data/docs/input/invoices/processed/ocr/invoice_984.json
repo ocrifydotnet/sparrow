@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Small-Simpson",
-                                    "confidence": 0.8613754510879517,
+                                    "confidence": 0.8613776564598083,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -323,7 +323,7 @@
                             "words": [
                                 {
                                     "value": "Port",
-                                    "confidence": 0.986086905002594,
+                                    "confidence": 0.9860868453979492,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -463,7 +463,7 @@
                                 },
                                 {
                                     "value": "6B4/,MB194866007468637",
-                                    "confidence": 0.5465410351753235,
+                                    "confidence": 0.5465414524078369,
                                     "geometry": [
                                         [
                                             0.138671875,
@@ -717,7 +717,7 @@
                                 },
                                 {
                                     "value": "Point",
-                                    "confidence": 0.6341372132301331,
+                                    "confidence": 0.6341407299041748,
                                     "geometry": [
                                         [
                                             0.615234375,
@@ -745,7 +745,7 @@
                             "words": [
                                 {
                                     "value": "Port",
-                                    "confidence": 0.8751921057701111,
+                                    "confidence": 0.8751925826072693,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -759,7 +759,7 @@
                                 },
                                 {
                                     "value": "Davidside,",
-                                    "confidence": 0.9430763721466064,
+                                    "confidence": 0.943076491355896,
                                     "geometry": [
                                         [
                                             0.54296875,
@@ -787,7 +787,7 @@
                                 },
                                 {
                                     "value": "43123",
-                                    "confidence": 0.6769916415214539,
+                                    "confidence": 0.6769866347312927,
                                     "geometry": [
                                         [
                                             0.6591796875,
@@ -829,7 +829,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -984,7 +984,7 @@
                                 },
                                 {
                                     "value": "each",
-                                    "confidence": 0.9996672868728638,
+                                    "confidence": 0.9996671676635742,
                                     "geometry": [
                                         [
                                             0.46484375,
@@ -1351,7 +1351,7 @@
                                 },
                                 {
                                     "value": "USB",
-                                    "confidence": 0.997974693775177,
+                                    "confidence": 0.9979748129844666,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1379,7 +1379,7 @@
                                 },
                                 {
                                     "value": "Bar",
-                                    "confidence": 0.6040130257606506,
+                                    "confidence": 0.6040075421333313,
                                     "geometry": [
                                         [
                                             0.240234375,
@@ -1407,7 +1407,7 @@
                                 },
                                 {
                                     "value": "Pumps",
-                                    "confidence": 0.8219839930534363,
+                                    "confidence": 0.8219831585884094,
                                     "geometry": [
                                         [
                                             0.3125,
@@ -1435,7 +1435,7 @@
                             "words": [
                                 {
                                     "value": "Wine",
-                                    "confidence": 0.9750587344169617,
+                                    "confidence": 0.9750593304634094,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1463,7 +1463,7 @@
                                 },
                                 {
                                     "value": "Bottles",
-                                    "confidence": 0.9658151865005493,
+                                    "confidence": 0.9658149480819702,
                                     "geometry": [
                                         [
                                             0.236328125,
@@ -1589,7 +1589,7 @@
                                 },
                                 {
                                     "value": "Wine",
-                                    "confidence": 0.9343804717063904,
+                                    "confidence": 0.9343798160552979,
                                     "geometry": [
                                         [
                                             0.2021484375,
@@ -1687,7 +1687,7 @@
                                 },
                                 {
                                     "value": "With",
-                                    "confidence": 0.9602391719818115,
+                                    "confidence": 0.9602389335632324,
                                     "geometry": [
                                         [
                                             0.2216796875,
@@ -1701,7 +1701,7 @@
                                 },
                                 {
                                     "value": "Attachments",
-                                    "confidence": 0.5678742527961731,
+                                    "confidence": 0.5678752064704895,
                                     "geometry": [
                                         [
                                             0.2578125,
@@ -1743,7 +1743,7 @@
                                 },
                                 {
                                     "value": "Wine",
-                                    "confidence": 0.854364275932312,
+                                    "confidence": 0.8543633222579956,
                                     "geometry": [
                                         [
                                             0.173828125,
@@ -1771,7 +1771,7 @@
                                 },
                                 {
                                     "value": "yoxq",
-                                    "confidence": 0.8972652554512024,
+                                    "confidence": 0.8972641825675964,
                                     "geometry": [
                                         [
                                             0.2509765625,
@@ -2463,7 +2463,7 @@
                             "words": [
                                 {
                                     "value": "$",
-                                    "confidence": 0.9935081005096436,
+                                    "confidence": 0.9935082197189331,
                                     "geometry": [
                                         [
                                             0.5703125,
@@ -2619,7 +2619,7 @@
                             "words": [
                                 {
                                     "value": "Gross",
-                                    "confidence": 0.8280156850814819,
+                                    "confidence": 0.8280161023139954,
                                     "geometry": [
                                         [
                                             0.81640625,
@@ -2746,7 +2746,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.554040253162384,
+                                    "confidence": 0.554036021232605,
                                     "geometry": [
                                         [
                                             0.3017578125,

@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Harris",
-                                    "confidence": 0.9722012281417847,
+                                    "confidence": 0.9722015261650085,
                                     "geometry": [
                                         [
                                             0.083984375,
@@ -309,7 +309,7 @@
                                 },
                                 {
                                     "value": "Wright",
-                                    "confidence": 0.9734494090080261,
+                                    "confidence": 0.9734497666358948,
                                     "geometry": [
                                         [
                                             0.1318359375,
@@ -351,7 +351,7 @@
                             "words": [
                                 {
                                     "value": "New",
-                                    "confidence": 0.959143877029419,
+                                    "confidence": 0.9591428637504578,
                                     "geometry": [
                                         [
                                             0.083984375,
@@ -393,7 +393,7 @@
                                 },
                                 {
                                     "value": "42689",
-                                    "confidence": 0.9979032278060913,
+                                    "confidence": 0.9979031085968018,
                                     "geometry": [
                                         [
                                             0.2177734375,
@@ -757,7 +757,7 @@
                                 },
                                 {
                                     "value": "1TB",
-                                    "confidence": 0.9666479825973511,
+                                    "confidence": 0.9666481018066406,
                                     "geometry": [
                                         [
                                             0.1845703125,
@@ -771,7 +771,7 @@
                                 },
                                 {
                                     "value": "Windows",
-                                    "confidence": 0.8971666693687439,
+                                    "confidence": 0.8971664905548096,
                                     "geometry": [
                                         [
                                             0.21484375,
@@ -883,7 +883,7 @@
                                 },
                                 {
                                     "value": "computer",
-                                    "confidence": 0.5459722280502319,
+                                    "confidence": 0.5459779500961304,
                                     "geometry": [
                                         [
                                             0.27734375,
@@ -911,7 +911,7 @@
                             "words": [
                                 {
                                     "value": "intel",
-                                    "confidence": 0.6237887144088745,
+                                    "confidence": 0.6237878799438477,
                                     "geometry": [
                                         [
                                             0.142578125,
@@ -967,7 +967,7 @@
                                 },
                                 {
                                     "value": "Sentry",
-                                    "confidence": 0.6058244705200195,
+                                    "confidence": 0.6058239936828613,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -995,7 +995,7 @@
                                 },
                                 {
                                     "value": "Computer",
-                                    "confidence": 0.9975425004959106,
+                                    "confidence": 0.9975423812866211,
                                     "geometry": [
                                         [
                                             0.25,
@@ -1079,7 +1079,7 @@
                                 },
                                 {
                                     "value": "I",
-                                    "confidence": 0.9819951057434082,
+                                    "confidence": 0.9819948077201843,
                                     "geometry": [
                                         [
                                             0.2490234375,
@@ -1121,7 +1121,7 @@
                                 },
                                 {
                                     "value": "Ram",
-                                    "confidence": 0.8395763635635376,
+                                    "confidence": 0.8395764827728271,
                                     "geometry": [
                                         [
                                             0.3046875,
@@ -1149,7 +1149,7 @@
                             "words": [
                                 {
                                     "value": "Build-to-Order",
-                                    "confidence": 0.8230398893356323,
+                                    "confidence": 0.8230404853820801,
                                     "geometry": [
                                         [
                                             0.1455078125,
@@ -1191,7 +1191,7 @@
                                 },
                                 {
                                     "value": "Dell",
-                                    "confidence": 0.9010633826255798,
+                                    "confidence": 0.9010642170906067,
                                     "geometry": [
                                         [
                                             0.142578125,
@@ -1219,7 +1219,7 @@
                                 },
                                 {
                                     "value": "ComputerlIntel",
-                                    "confidence": 0.4401327073574066,
+                                    "confidence": 0.4401341378688812,
                                     "geometry": [
                                         [
                                             0.234375,
@@ -1303,7 +1303,7 @@
                                 },
                                 {
                                     "value": "1TB",
-                                    "confidence": 0.959710419178009,
+                                    "confidence": 0.9597107172012329,
                                     "geometry": [
                                         [
                                             0.255859375,
@@ -1345,7 +1345,7 @@
                             "words": [
                                 {
                                     "value": "Windows",
-                                    "confidence": 0.9543970823287964,
+                                    "confidence": 0.9543971419334412,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1541,7 +1541,7 @@
                                 },
                                 {
                                     "value": "Intel",
-                                    "confidence": 0.8127759099006653,
+                                    "confidence": 0.8127773404121399,
                                     "geometry": [
                                         [
                                             0.1845703125,
@@ -1569,7 +1569,7 @@
                                 },
                                 {
                                     "value": "i5",
-                                    "confidence": 0.9951046705245972,
+                                    "confidence": 0.9951045513153076,
                                     "geometry": [
                                         [
                                             0.2529296875,
@@ -1597,7 +1597,7 @@
                                 },
                                 {
                                     "value": "1TB",
-                                    "confidence": 0.9406252503395081,
+                                    "confidence": 0.9406248331069946,
                                     "geometry": [
                                         [
                                             0.3037109375,
@@ -1611,7 +1611,7 @@
                                 },
                                 {
                                     "value": "HD",
-                                    "confidence": 0.9993426203727722,
+                                    "confidence": 0.9993425011634827,
                                     "geometry": [
                                         [
                                             0.3330078125,
@@ -1751,7 +1751,7 @@
                                 },
                                 {
                                     "value": "Windows",
-                                    "confidence": 0.8333544731140137,
+                                    "confidence": 0.8333542346954346,
                                     "geometry": [
                                         [
                                             0.2265625,
@@ -1807,7 +1807,7 @@
                             "words": [
                                 {
                                     "value": "Desktop",
-                                    "confidence": 0.9126980900764465,
+                                    "confidence": 0.9126981496810913,
                                     "geometry": [
                                         [
                                             0.1455078125,
@@ -1891,7 +1891,7 @@
                             "words": [
                                 {
                                     "value": "vPro",
-                                    "confidence": 0.5786458253860474,
+                                    "confidence": 0.578646719455719,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1905,7 +1905,7 @@
                                 },
                                 {
                                     "value": "4Gb",
-                                    "confidence": 0.9882661700248718,
+                                    "confidence": 0.9882662892341614,
                                     "geometry": [
                                         [
                                             0.177734375,
@@ -1919,7 +1919,7 @@
                                 },
                                 {
                                     "value": "250Gb",
-                                    "confidence": 0.8316645622253418,
+                                    "confidence": 0.8316637277603149,
                                     "geometry": [
                                         [
                                             0.2099609375,
@@ -2018,7 +2018,7 @@
                             "words": [
                                 {
                                     "value": "Thomas-Vazquez",
-                                    "confidence": 0.9873471260070801,
+                                    "confidence": 0.9873470067977905,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -2046,7 +2046,7 @@
                             "words": [
                                 {
                                     "value": "4883",
-                                    "confidence": 0.5830876231193542,
+                                    "confidence": 0.5830862522125244,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -2102,7 +2102,7 @@
                             "words": [
                                 {
                                     "value": "Williamview,",
-                                    "confidence": 0.7877122759819031,
+                                    "confidence": 0.78770911693573,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -2172,7 +2172,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -2735,7 +2735,7 @@
                             "words": [
                                 {
                                     "value": "1870,00",
-                                    "confidence": 0.9807727336883545,
+                                    "confidence": 0.980772852897644,
                                     "geometry": [
                                         [
                                             0.84375,
@@ -3030,7 +3030,7 @@
                             "words": [
                                 {
                                     "value": "119,99",
-                                    "confidence": 0.960125207901001,
+                                    "confidence": 0.9601253867149353,
                                     "geometry": [
                                         [
                                             0.56640625,
@@ -3439,7 +3439,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.8491944074630737,
+                                    "confidence": 0.8491925001144409,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -3482,7 +3482,7 @@
                             "words": [
                                 {
                                     "value": "VAT",
-                                    "confidence": 0.9956063628196716,
+                                    "confidence": 0.9956062436103821,
                                     "geometry": [
                                         [
                                             0.38671875,
@@ -3496,7 +3496,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.8807666897773743,
+                                    "confidence": 0.8807665109634399,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -3524,7 +3524,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.5205381512641907,
+                                    "confidence": 0.5205267667770386,
                                     "geometry": [
                                         [
                                             0.40234375,
@@ -3637,7 +3637,7 @@
                             "words": [
                                 {
                                     "value": "$5221,54",
-                                    "confidence": 0.6750351786613464,
+                                    "confidence": 0.6750284433364868,
                                     "geometry": [
                                         [
                                             0.5556640625,
@@ -3750,7 +3750,7 @@
                                 },
                                 {
                                     "value": "522,15",
-                                    "confidence": 0.9995379447937012,
+                                    "confidence": 0.9995378255844116,
                                     "geometry": [
                                         [
                                             0.6923828125,
@@ -3835,7 +3835,7 @@
                             "words": [
                                 {
                                     "value": "5",
-                                    "confidence": 0.9885282516479492,
+                                    "confidence": 0.9885284304618835,
                                     "geometry": [
                                         [
                                             0.8466796875,
@@ -3877,7 +3877,7 @@
                             "words": [
                                 {
                                     "value": "$5743,69",
-                                    "confidence": 0.9728711843490601,
+                                    "confidence": 0.9728714227676392,
                                     "geometry": [
                                         [
                                             0.8271484375,
@@ -3920,7 +3920,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.6369116306304932,
+                                    "confidence": 0.6369121670722961,
                                     "geometry": [
                                         [
                                             0.3017578125,

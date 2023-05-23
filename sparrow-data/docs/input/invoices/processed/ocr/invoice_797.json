@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -211,7 +211,7 @@
                             "words": [
                                 {
                                     "value": "Seller:",
-                                    "confidence": 0.9407179951667786,
+                                    "confidence": 0.9407176375389099,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Rodgers-Garcia",
-                                    "confidence": 0.9367453455924988,
+                                    "confidence": 0.9367451667785645,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -267,7 +267,7 @@
                             "words": [
                                 {
                                     "value": "4296",
-                                    "confidence": 0.882905900478363,
+                                    "confidence": 0.8829106092453003,
                                     "geometry": [
                                         [
                                             0.083984375,
@@ -295,7 +295,7 @@
                                 },
                                 {
                                     "value": "Springs",
-                                    "confidence": 0.9850046634674072,
+                                    "confidence": 0.9850045442581177,
                                     "geometry": [
                                         [
                                             0.1865234375,
@@ -351,7 +351,7 @@
                             "words": [
                                 {
                                     "value": "Carolfort,",
-                                    "confidence": 0.9988048076629639,
+                                    "confidence": 0.9988046884536743,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -646,7 +646,7 @@
                             "words": [
                                 {
                                     "value": "7895",
-                                    "confidence": 0.7215912342071533,
+                                    "confidence": 0.7215916514396667,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -702,7 +702,7 @@
                             "words": [
                                 {
                                     "value": "Port",
-                                    "confidence": 0.8751921057701111,
+                                    "confidence": 0.8751925826072693,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -786,7 +786,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -843,7 +843,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1266,7 +1266,7 @@
                                 },
                                 {
                                     "value": "Console",
-                                    "confidence": 0.7171298861503601,
+                                    "confidence": 0.7171290516853333,
                                     "geometry": [
                                         [
                                             0.1845703125,
@@ -1495,7 +1495,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9937698245048523,
+                                    "confidence": 0.9937697052955627,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1876,7 +1876,7 @@
                             "words": [
                                 {
                                     "value": "$",
-                                    "confidence": 0.9817224144935608,
+                                    "confidence": 0.9817230105400085,
                                     "geometry": [
                                         [
                                             0.8427734375,
@@ -1933,7 +1933,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.6265870332717896,
+                                    "confidence": 0.6265906095504761,
                                     "geometry": [
                                         [
                                             0.3017578125,

@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Grant",
-                                    "confidence": 0.975839376449585,
+                                    "confidence": 0.9758402705192566,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -379,7 +379,7 @@
                             "words": [
                                 {
                                     "value": "Combsside,",
-                                    "confidence": 0.9887748956680298,
+                                    "confidence": 0.9887750148773193,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -631,7 +631,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9515635967254639,
+                                    "confidence": 0.9515646696090698,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -716,7 +716,7 @@
                                 },
                                 {
                                     "value": "Harrison",
-                                    "confidence": 0.9641391038894653,
+                                    "confidence": 0.9641389846801758,
                                     "geometry": [
                                         [
                                             0.5595703125,
@@ -898,7 +898,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -969,7 +969,7 @@
                                 },
                                 {
                                     "value": "GB78DQDN59792115898542",
-                                    "confidence": 0.9970569610595703,
+                                    "confidence": 0.9970568418502808,
                                     "geometry": [
                                         [
                                             0.13671875,
@@ -1466,7 +1466,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9947860240936279,
+                                    "confidence": 0.9947861433029175,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1621,7 +1621,7 @@
                                 },
                                 {
                                     "value": "19,56",
-                                    "confidence": 0.9954811334609985,
+                                    "confidence": 0.9954812526702881,
                                     "geometry": [
                                         [
                                             0.5908203125,
@@ -1791,7 +1791,7 @@
                                 },
                                 {
                                     "value": "worth",
-                                    "confidence": 0.9924626350402832,
+                                    "confidence": 0.9924627542495728,
                                     "geometry": [
                                         [
                                             0.86328125,
@@ -1890,7 +1890,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.8032234907150269,
+                                    "confidence": 0.8032225370407104,
                                     "geometry": [
                                         [
                                             0.3017578125,

@@ -7,7 +7,7 @@ import shutil
 def main():
     # Convert pdf to jpg
     pdf_converter = PDFConverter()
-    pdf_converter.convert_to_jpg('docs/input/invoices/Dataset with valid information',
+    pdf_converter.convert_to_jpg('docs/input/invoices/Dataset with simple invoices',
                                  'docs/input/invoices/processed/images')
 
     # define the source and destination directory

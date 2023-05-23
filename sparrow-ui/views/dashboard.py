@@ -34,7 +34,7 @@ class Dashboard:
     def view(self, model):
         # st.title(model.pageTitle)
 
-        api_url = "https://katanaml-org-sparrow-ml.hf.space/api-inference/v1/sparrow-ml/statistics"
+        api_url = "http://127.0.0.1:8001/api-inference/v1/sparrow-ml/statistics"
         json_data_inference = []
         response = requests.get(api_url)
         if response.status_code == 200:
@@ -42,7 +42,7 @@ class Dashboard:
         else:
             print(f"Error: Unable to fetch data from the API (status code {response.status_code})")
 
-        api_url_t = "https://katanaml-org-sparrow-ml.hf.space/api-training/v1/sparrow-ml/statistics/training"
+        api_url_t = "http://127.0.0.1:8001/api-training/v1/sparrow-ml/statistics/training"
         json_data_training = []
         response_t = requests.get(api_url_t)
         if response_t.status_code == 200:
@@ -50,7 +50,7 @@ class Dashboard:
         else:
             print(f"Error: Unable to fetch data from the API (status code {response_t.status_code})")
 
-        api_url_e = "https://katanaml-org-sparrow-ml.hf.space/api-training/v1/sparrow-ml/statistics/evaluate"
+        api_url_e = "http://127.0.0.1:8001/api-training/v1/sparrow-ml/statistics/evaluate"
         json_data_evaluate = []
         response_e = requests.get(api_url_e)
         if response_e.status_code == 200:
@@ -255,7 +255,7 @@ class Dashboard:
         st.markdown("---")
 
         with st.container():
-            col1, col2, col3, col4 = st.columns(4)
+            col1, col2, col3 = st.columns(3)
 
             with col1:
                 with st.container():
@@ -277,7 +277,7 @@ class Dashboard:
                 with st.container():
                     st.write(model.titleDatasetInfo)
 
-                    api_url = "https://katanaml-org-sparrow-data.hf.space/api-dataset/v1/sparrow-data/dataset_info"
+                    api_url = "http://127.0.0.1:8000/api-dataset/v1/sparrow-data/dataset_info"
 
                     # Make the GET request
                     response = requests.get(api_url)
@@ -325,25 +325,26 @@ class Dashboard:
 
                     st.altair_chart(chart)
 
-            with col4:
-                with st.container():
-                    st.write(model.titleEvaluationPerformance)
+        st.markdown("---")
 
-                    runs_dict = {}
+        with st.container():
+            st.write(model.titleEvaluationPerformance)
 
-                    for i in range(0, len(json_data_evaluate)):
-                        runs_dict[i] = round(json_data_evaluate[i][0])
+            runs_dict = {}
 
-                    data = pd.DataFrame({"Runs": runs_dict.keys(), "Value": list(runs_dict.values())})
+            for i in range(0, len(json_data_evaluate)):
+                runs_dict[i] = round(json_data_evaluate[i][0])
 
-                    # Create a horizontal bar chart
-                    chart = alt.Chart(data).mark_bar().encode(
-                        x='Value:Q',
-                        y=alt.Y('Runs:N', sort='-x'),
-                        color=alt.Color('Runs:N', legend=None)
-                    )
+            data = pd.DataFrame({"Runs": runs_dict.keys(), "Value": list(runs_dict.values())})
 
-                    st.altair_chart(chart)
+            # Create a horizontal bar chart
+            chart = alt.Chart(data).mark_bar().encode(
+                x='Value:Q',
+                y=alt.Y('Runs:N', sort='-x'),
+                color=alt.Color('Runs:N', legend=None)
+            )
+
+            st.altair_chart(chart)
 
 
     def calculate_annotation_stats(self, model):

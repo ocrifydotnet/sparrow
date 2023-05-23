@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -168,7 +168,7 @@
                             "words": [
                                 {
                                     "value": "04/05/2016",
-                                    "confidence": 0.8289890885353088,
+                                    "confidence": 0.8289901614189148,
                                     "geometry": [
                                         [
                                             0.4853515625,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Nixon-Delacruz",
-                                    "confidence": 0.6792415380477905,
+                                    "confidence": 0.6792407035827637,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -351,7 +351,7 @@
                             "words": [
                                 {
                                     "value": "Heathertown,",
-                                    "confidence": 0.9966855645179749,
+                                    "confidence": 0.9966856837272644,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -379,7 +379,7 @@
                                 },
                                 {
                                     "value": "04052",
-                                    "confidence": 0.9562023282051086,
+                                    "confidence": 0.95620197057724,
                                     "geometry": [
                                         [
                                             0.23828125,
@@ -477,7 +477,7 @@
                                 },
                                 {
                                     "value": "GB08UMMI98094755494368",
-                                    "confidence": 0.6564128994941711,
+                                    "confidence": 0.656410813331604,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -618,7 +618,7 @@
                             "words": [
                                 {
                                     "value": "Schneider-Garrison",
-                                    "confidence": 0.6993837952613831,
+                                    "confidence": 0.699389636516571,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -646,7 +646,7 @@
                             "words": [
                                 {
                                     "value": "USCGC",
-                                    "confidence": 0.9890833497047424,
+                                    "confidence": 0.989083468914032,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -758,7 +758,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -815,7 +815,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1154,7 +1154,7 @@
                                 },
                                 {
                                     "value": "RICHARDS",
-                                    "confidence": 0.9138533473014832,
+                                    "confidence": 0.913849949836731,
                                     "geometry": [
                                         [
                                             0.1845703125,
@@ -1168,7 +1168,7 @@
                                 },
                                 {
                                     "value": "WOMAN'S",
-                                    "confidence": 0.9831480979919434,
+                                    "confidence": 0.9831479787826538,
                                     "geometry": [
                                         [
                                             0.2578125,
@@ -1322,7 +1322,7 @@
                                 },
                                 {
                                     "value": "18W",
-                                    "confidence": 0.9913197159767151,
+                                    "confidence": 0.991319477558136,
                                     "geometry": [
                                         [
                                             0.2841796875,
@@ -1508,7 +1508,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9961697459220886,
+                                    "confidence": 0.9961695075035095,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1565,7 +1565,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9649435877799988,
+                                    "confidence": 0.964943528175354,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1593,7 +1593,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.8173165917396545,
+                                    "confidence": 0.8173180222511292,
                                     "geometry": [
                                         [
                                             0.4033203125,
@@ -1678,7 +1678,7 @@
                             "words": [
                                 {
                                     "value": "59,98",
-                                    "confidence": 0.8797092437744141,
+                                    "confidence": 0.8797094225883484,
                                     "geometry": [
                                         [
                                             0.5986328125,
@@ -1890,7 +1890,7 @@
                             "words": [
                                 {
                                     "value": "65,98",
-                                    "confidence": 0.7288002967834473,
+                                    "confidence": 0.7288048267364502,
                                     "geometry": [
                                         [
                                             0.869140625,

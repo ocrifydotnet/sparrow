@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -323,7 +323,7 @@
                             "words": [
                                 {
                                     "value": "Morganmouth,",
-                                    "confidence": 0.9727045297622681,
+                                    "confidence": 0.9727044701576233,
                                     "geometry": [
                                         [
                                             0.0859375,
@@ -449,7 +449,7 @@
                                 },
                                 {
                                     "value": "GB70ACOV98557167099260",
-                                    "confidence": 0.7099910974502563,
+                                    "confidence": 0.7099863886833191,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -590,7 +590,7 @@
                             "words": [
                                 {
                                     "value": "Gonzalez-Brown",
-                                    "confidence": 0.9192174077033997,
+                                    "confidence": 0.919217586517334,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -674,7 +674,7 @@
                             "words": [
                                 {
                                     "value": "Singletonton,",
-                                    "confidence": 0.8913689255714417,
+                                    "confidence": 0.891368567943573,
                                     "geometry": [
                                         [
                                             0.5048828125,
@@ -744,7 +744,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090573191642761,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -801,7 +801,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -899,7 +899,7 @@
                                 },
                                 {
                                     "value": "each",
-                                    "confidence": 0.9996672868728638,
+                                    "confidence": 0.9996671676635742,
                                     "geometry": [
                                         [
                                             0.46484375,
@@ -1420,7 +1420,7 @@
                                 },
                                 {
                                     "value": "Girl",
-                                    "confidence": 0.9891350269317627,
+                                    "confidence": 0.9891349077224731,
                                     "geometry": [
                                         [
                                             0.18359375,
@@ -1448,7 +1448,7 @@
                                 },
                                 {
                                     "value": "Hermione",
-                                    "confidence": 0.9523178339004517,
+                                    "confidence": 0.9523175358772278,
                                     "geometry": [
                                         [
                                             0.265625,
@@ -1504,7 +1504,7 @@
                                 },
                                 {
                                     "value": "Costume",
-                                    "confidence": 0.7548177242279053,
+                                    "confidence": 0.7548170685768127,
                                     "geometry": [
                                         [
                                             0.2607421875,
@@ -1546,7 +1546,7 @@
                                 },
                                 {
                                     "value": "Kid",
-                                    "confidence": 0.6952444911003113,
+                                    "confidence": 0.6952379941940308,
                                     "geometry": [
                                         [
                                             0.2158203125,
@@ -1658,7 +1658,7 @@
                                 },
                                 {
                                     "value": "Max",
-                                    "confidence": 0.9531021118164062,
+                                    "confidence": 0.9531018733978271,
                                     "geometry": [
                                         [
                                             0.201171875,
@@ -1686,7 +1686,7 @@
                                 },
                                 {
                                     "value": "All",
-                                    "confidence": 0.9922063946723938,
+                                    "confidence": 0.9922062754631042,
                                     "geometry": [
                                         [
                                             0.2529296875,
@@ -1700,7 +1700,7 @@
                                 },
                                 {
                                     "value": "Black",
-                                    "confidence": 0.9986155033111572,
+                                    "confidence": 0.9986153841018677,
                                     "geometry": [
                                         [
                                             0.275390625,
@@ -1952,7 +1952,7 @@
                             "words": [
                                 {
                                     "value": "Children",
-                                    "confidence": 0.8377434015274048,
+                                    "confidence": 0.8377415537834167,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1966,7 +1966,7 @@
                                 },
                                 {
                                     "value": "Shoes",
-                                    "confidence": 0.981234610080719,
+                                    "confidence": 0.9812347292900085,
                                     "geometry": [
                                         [
                                             0.205078125,
@@ -1994,7 +1994,7 @@
                                 },
                                 {
                                     "value": "Black,",
-                                    "confidence": 0.976173996925354,
+                                    "confidence": 0.9761738181114197,
                                     "geometry": [
                                         [
                                             0.3056640625,
@@ -2050,7 +2050,7 @@
                                 },
                                 {
                                     "value": "Kid",
-                                    "confidence": 0.9917056560516357,
+                                    "confidence": 0.9917055368423462,
                                     "geometry": [
                                         [
                                             0.2138671875,
@@ -2106,7 +2106,7 @@
                                 },
                                 {
                                     "value": "Florsheim",
-                                    "confidence": 0.9851834774017334,
+                                    "confidence": 0.9851834177970886,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -2134,7 +2134,7 @@
                                 },
                                 {
                                     "value": "boys",
-                                    "confidence": 0.8996413946151733,
+                                    "confidence": 0.8996410965919495,
                                     "geometry": [
                                         [
                                             0.248046875,
@@ -2358,7 +2358,7 @@
                                 },
                                 {
                                     "value": "Creative",
-                                    "confidence": 0.752924919128418,
+                                    "confidence": 0.7529284954071045,
                                     "geometry": [
                                         [
                                             0.2119140625,
@@ -2442,7 +2442,7 @@
                                 },
                                 {
                                     "value": "Gift",
-                                    "confidence": 0.8381257653236389,
+                                    "confidence": 0.8381262421607971,
                                     "geometry": [
                                         [
                                             0.2421875,
@@ -2470,7 +2470,7 @@
                                 },
                                 {
                                     "value": "Toy",
-                                    "confidence": 0.8233762383460999,
+                                    "confidence": 0.823376476764679,
                                     "geometry": [
                                         [
                                             0.306640625,
@@ -2512,7 +2512,7 @@
                                 },
                                 {
                                     "value": "Christmas",
-                                    "confidence": 0.9570341110229492,
+                                    "confidence": 0.9570343494415283,
                                     "geometry": [
                                         [
                                             0.2060546875,
@@ -3020,7 +3020,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9926983714103699,
+                                    "confidence": 0.9926984906196594,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -3515,7 +3515,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.8153513073921204,
+                                    "confidence": 0.8153501749038696,
                                     "geometry": [
                                         [
                                             0.3017578125,

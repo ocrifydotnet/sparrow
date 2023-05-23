@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -282,7 +282,7 @@
                             "words": [
                                 {
                                     "value": "Hancock-Shields",
-                                    "confidence": 0.6318981051445007,
+                                    "confidence": 0.631899893283844,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -310,7 +310,7 @@
                             "words": [
                                 {
                                     "value": "397",
-                                    "confidence": 0.9869818091392517,
+                                    "confidence": 0.9869815707206726,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -338,7 +338,7 @@
                                 },
                                 {
                                     "value": "Skyway",
-                                    "confidence": 0.9847539663314819,
+                                    "confidence": 0.9847537279129028,
                                     "geometry": [
                                         [
                                             0.587890625,
@@ -450,7 +450,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -549,7 +549,7 @@
                                 },
                                 {
                                     "value": "Fischer",
-                                    "confidence": 0.9959315657615662,
+                                    "confidence": 0.9959316849708557,
                                     "geometry": [
                                         [
                                             0.23828125,
@@ -675,7 +675,7 @@
                                 },
                                 {
                                     "value": "20857",
-                                    "confidence": 0.8212966918945312,
+                                    "confidence": 0.8212970495223999,
                                     "geometry": [
                                         [
                                             0.30078125,
@@ -886,7 +886,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1253,7 +1253,7 @@
                                 },
                                 {
                                     "value": "Console",
-                                    "confidence": 0.9872890710830688,
+                                    "confidence": 0.9872888326644897,
                                     "geometry": [
                                         [
                                             0.287109375,
@@ -1309,7 +1309,7 @@
                                 },
                                 {
                                     "value": "Animal",
-                                    "confidence": 0.9526363611221313,
+                                    "confidence": 0.9526360034942627,
                                     "geometry": [
                                         [
                                             0.2216796875,
@@ -1323,7 +1323,7 @@
                                 },
                                 {
                                     "value": "Crossing",
-                                    "confidence": 0.9366163611412048,
+                                    "confidence": 0.936615526676178,
                                     "geometry": [
                                         [
                                             0.2744140625,
@@ -1365,7 +1365,7 @@
                                 },
                                 {
                                     "value": "Horizons",
-                                    "confidence": 0.9700317978858948,
+                                    "confidence": 0.9700323343276978,
                                     "geometry": [
                                         [
                                             0.177734375,
@@ -1379,7 +1379,7 @@
                                 },
                                 {
                                     "value": "Game",
-                                    "confidence": 0.9988779425621033,
+                                    "confidence": 0.9988778233528137,
                                     "geometry": [
                                         [
                                             0.240234375,
@@ -1422,7 +1422,7 @@
                             "words": [
                                 {
                                     "value": "310,00",
-                                    "confidence": 0.9950358271598816,
+                                    "confidence": 0.9950359463691711,
                                     "geometry": [
                                         [
                                             0.5654296875,
@@ -1551,7 +1551,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9961697459220886,
+                                    "confidence": 0.9961695075035095,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1608,7 +1608,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9649435877799988,
+                                    "confidence": 0.964943528175354,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1636,7 +1636,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.8173165917396545,
+                                    "confidence": 0.8173180222511292,
                                     "geometry": [
                                         [
                                             0.4033203125,

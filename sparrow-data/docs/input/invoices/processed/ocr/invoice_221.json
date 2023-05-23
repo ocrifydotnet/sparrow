@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -351,7 +351,7 @@
                             "words": [
                                 {
                                     "value": "Port",
-                                    "confidence": 0.986086905002594,
+                                    "confidence": 0.9860868453979492,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -365,7 +365,7 @@
                                 },
                                 {
                                     "value": "Christophershire,",
-                                    "confidence": 0.5668271780014038,
+                                    "confidence": 0.5668290853500366,
                                     "geometry": [
                                         [
                                             0.1259765625,
@@ -491,7 +491,7 @@
                                 },
                                 {
                                     "value": "GB58KH/M79703180709994",
-                                    "confidence": 0.5070491433143616,
+                                    "confidence": 0.5070513486862183,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -632,7 +632,7 @@
                             "words": [
                                 {
                                     "value": "Rodriguez-yennings",
-                                    "confidence": 0.34476256370544434,
+                                    "confidence": 0.3447631895542145,
                                     "geometry": [
                                         [
                                             0.5048828125,
@@ -800,7 +800,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.909054160118103,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -857,7 +857,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1196,7 +1196,7 @@
                                 },
                                 {
                                     "value": "Dual",
-                                    "confidence": 0.9969289898872375,
+                                    "confidence": 0.9969291090965271,
                                     "geometry": [
                                         [
                                             0.1796875,
@@ -1294,7 +1294,7 @@
                                 },
                                 {
                                     "value": "WiFi",
-                                    "confidence": 0.8503998517990112,
+                                    "confidence": 0.8503974676132202,
                                     "geometry": [
                                         [
                                             0.2353515625,
@@ -1308,7 +1308,7 @@
                                 },
                                 {
                                     "value": "Windows",
-                                    "confidence": 0.7911468148231506,
+                                    "confidence": 0.7911455631256104,
                                     "geometry": [
                                         [
                                             0.2685546875,
@@ -1350,7 +1350,7 @@
                             "words": [
                                 {
                                     "value": "office",
-                                    "confidence": 0.9928678274154663,
+                                    "confidence": 0.9928677082061768,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1564,7 +1564,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9961697459220886,
+                                    "confidence": 0.9961695075035095,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1621,7 +1621,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9649435877799988,
+                                    "confidence": 0.964943528175354,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1649,7 +1649,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.8173165917396545,
+                                    "confidence": 0.8173180222511292,
                                     "geometry": [
                                         [
                                             0.4033203125,

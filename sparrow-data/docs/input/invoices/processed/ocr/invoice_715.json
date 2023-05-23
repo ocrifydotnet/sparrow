@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -211,7 +211,7 @@
                             "words": [
                                 {
                                     "value": "Seller:",
-                                    "confidence": 0.9407179951667786,
+                                    "confidence": 0.9407176375389099,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Duncan",
-                                    "confidence": 0.9907045960426331,
+                                    "confidence": 0.9907047152519226,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -281,7 +281,7 @@
                             "words": [
                                 {
                                     "value": "74561",
-                                    "confidence": 0.9861333966255188,
+                                    "confidence": 0.9861335158348083,
                                     "geometry": [
                                         [
                                             0.083984375,
@@ -576,7 +576,7 @@
                             "words": [
                                 {
                                     "value": "Edwards-Archer",
-                                    "confidence": 0.8679463863372803,
+                                    "confidence": 0.8679468035697937,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -744,7 +744,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.909054160118103,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -815,7 +815,7 @@
                                 },
                                 {
                                     "value": "GB04BWVQ001100110029381531",
-                                    "confidence": 0.8533796668052673,
+                                    "confidence": 0.853381872177124,
                                     "geometry": [
                                         [
                                             0.13671875,
@@ -1126,7 +1126,7 @@
                             "words": [
                                 {
                                     "value": "50,05",
-                                    "confidence": 0.9888353943824768,
+                                    "confidence": 0.9888352751731873,
                                     "geometry": [
                                         [
                                             0.8671875,
@@ -1225,7 +1225,7 @@
                                 },
                                 {
                                     "value": "Quilted",
-                                    "confidence": 0.9991377592086792,
+                                    "confidence": 0.9991376399993896,
                                     "geometry": [
                                         [
                                             0.2958984375,
@@ -1281,7 +1281,7 @@
                                 },
                                 {
                                     "value": "Princess",
-                                    "confidence": 0.9781700372695923,
+                                    "confidence": 0.9781697988510132,
                                     "geometry": [
                                         [
                                             0.2470703125,
@@ -1523,7 +1523,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9961697459220886,
+                                    "confidence": 0.9961695075035095,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1580,7 +1580,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9649435877799988,
+                                    "confidence": 0.964943528175354,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1608,7 +1608,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.8173165917396545,
+                                    "confidence": 0.8173180222511292,
                                     "geometry": [
                                         [
                                             0.4033203125,
@@ -1721,7 +1721,7 @@
                             "words": [
                                 {
                                     "value": "$45,50",
-                                    "confidence": 0.990199625492096,
+                                    "confidence": 0.9901995062828064,
                                     "geometry": [
                                         [
                                             0.578125,

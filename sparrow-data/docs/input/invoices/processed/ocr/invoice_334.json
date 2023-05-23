@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -381,7 +381,7 @@
                                 },
                                 {
                                     "value": "Smith",
-                                    "confidence": 0.9493638873100281,
+                                    "confidence": 0.9493640065193176,
                                     "geometry": [
                                         [
                                             0.142578125,
@@ -690,7 +690,7 @@
                             "words": [
                                 {
                                     "value": "Ford,",
-                                    "confidence": 0.6810377240180969,
+                                    "confidence": 0.6810576319694519,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -732,7 +732,7 @@
                                 },
                                 {
                                     "value": "Walton",
-                                    "confidence": 0.983954906463623,
+                                    "confidence": 0.9839547872543335,
                                     "geometry": [
                                         [
                                             0.64453125,
@@ -802,7 +802,7 @@
                                 },
                                 {
                                     "value": "Suite",
-                                    "confidence": 0.598711371421814,
+                                    "confidence": 0.5987045168876648,
                                     "geometry": [
                                         [
                                             0.6865234375,
@@ -844,7 +844,7 @@
                             "words": [
                                 {
                                     "value": "Rayville,",
-                                    "confidence": 0.9625241756439209,
+                                    "confidence": 0.9625239372253418,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -914,7 +914,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -971,7 +971,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1422,7 +1422,7 @@
                                 },
                                 {
                                     "value": "Glasses",
-                                    "confidence": 0.8897247910499573,
+                                    "confidence": 0.8897251486778259,
                                     "geometry": [
                                         [
                                             0.2685546875,
@@ -1450,7 +1450,7 @@
                             "words": [
                                 {
                                     "value": "Original",
-                                    "confidence": 0.9858725070953369,
+                                    "confidence": 0.9858726263046265,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1664,7 +1664,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9961697459220886,
+                                    "confidence": 0.9961695075035095,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1721,7 +1721,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9649435877799988,
+                                    "confidence": 0.964943528175354,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1749,7 +1749,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.8173165917396545,
+                                    "confidence": 0.8173180222511292,
                                     "geometry": [
                                         [
                                             0.4033203125,

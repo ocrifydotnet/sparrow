@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -408,7 +408,7 @@
                             "words": [
                                 {
                                     "value": "Brownburgh,",
-                                    "confidence": 0.9646547436714172,
+                                    "confidence": 0.9646543264389038,
                                     "geometry": [
                                         [
                                             0.5048828125,
@@ -478,7 +478,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -549,7 +549,7 @@
                                 },
                                 {
                                     "value": "David",
-                                    "confidence": 0.9828795790672302,
+                                    "confidence": 0.9828796982765198,
                                     "geometry": [
                                         [
                                             0.1318359375,
@@ -563,7 +563,7 @@
                                 },
                                 {
                                     "value": "Motorway",
-                                    "confidence": 0.996690034866333,
+                                    "confidence": 0.9966901540756226,
                                     "geometry": [
                                         [
                                             0.1875,
@@ -619,7 +619,7 @@
                             "words": [
                                 {
                                     "value": "South",
-                                    "confidence": 0.9289620518684387,
+                                    "confidence": 0.9289633631706238,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -759,7 +759,7 @@
                                 },
                                 {
                                     "value": "GB89RLS95828897014080",
-                                    "confidence": 0.48402711749076843,
+                                    "confidence": 0.4840262234210968,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -872,7 +872,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752963781356812,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -998,7 +998,7 @@
                             "words": [
                                 {
                                     "value": "4,00",
-                                    "confidence": 0.9076706767082214,
+                                    "confidence": 0.9076718688011169,
                                     "geometry": [
                                         [
                                             0.4052734375,
@@ -1294,7 +1294,7 @@
                             "words": [
                                 {
                                     "value": "4,68",
-                                    "confidence": 0.952572226524353,
+                                    "confidence": 0.952566921710968,
                                     "geometry": [
                                         [
                                             0.875,
@@ -1463,7 +1463,7 @@
                                 },
                                 {
                                     "value": "Complete",
-                                    "confidence": 0.7596940398216248,
+                                    "confidence": 0.759688138961792,
                                     "geometry": [
                                         [
                                             0.28125,
@@ -1519,7 +1519,7 @@
                                 },
                                 {
                                     "value": "Collection",
-                                    "confidence": 0.6918666958808899,
+                                    "confidence": 0.6918662786483765,
                                     "geometry": [
                                         [
                                             0.2509765625,
@@ -1869,7 +1869,7 @@
                                 },
                                 {
                                     "value": "Old",
-                                    "confidence": 0.8852284550666809,
+                                    "confidence": 0.8852272033691406,
                                     "geometry": [
                                         [
                                             0.2041015625,
@@ -1897,7 +1897,7 @@
                                 },
                                 {
                                     "value": "Money",
-                                    "confidence": 0.9611585140228271,
+                                    "confidence": 0.9611580967903137,
                                     "geometry": [
                                         [
                                             0.2744140625,
@@ -2095,7 +2095,7 @@
                             "words": [
                                 {
                                     "value": "4,25",
-                                    "confidence": 0.9638681411743164,
+                                    "confidence": 0.963868260383606,
                                     "geometry": [
                                         [
                                             0.68359375,
@@ -2364,7 +2364,7 @@
                             "words": [
                                 {
                                     "value": "VAT",
-                                    "confidence": 0.9069938063621521,
+                                    "confidence": 0.9069944024085999,
                                     "geometry": [
                                         [
                                             0.38671875,
@@ -2519,7 +2519,7 @@
                             "words": [
                                 {
                                     "value": "$101,19",
-                                    "confidence": 0.9832643866539001,
+                                    "confidence": 0.9832642674446106,
                                     "geometry": [
                                         [
                                             0.568359375,
@@ -2788,7 +2788,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.9591274261474609,
+                                    "confidence": 0.9591270685195923,
                                     "geometry": [
                                         [
                                             0.3017578125,

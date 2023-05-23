@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -168,7 +168,7 @@
                             "words": [
                                 {
                                     "value": "04/17/2020",
-                                    "confidence": 0.731898844242096,
+                                    "confidence": 0.7318992018699646,
                                     "geometry": [
                                         [
                                             0.4853515625,
@@ -282,7 +282,7 @@
                             "words": [
                                 {
                                     "value": "Meadows-Young",
-                                    "confidence": 0.7569267749786377,
+                                    "confidence": 0.7569243907928467,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -408,7 +408,7 @@
                                 },
                                 {
                                     "value": "David,",
-                                    "confidence": 0.5103853344917297,
+                                    "confidence": 0.5103724598884583,
                                     "geometry": [
                                         [
                                             0.5556640625,
@@ -478,7 +478,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -619,7 +619,7 @@
                                 },
                                 {
                                     "value": "Fox",
-                                    "confidence": 0.9989991784095764,
+                                    "confidence": 0.9989990592002869,
                                     "geometry": [
                                         [
                                             0.1318359375,
@@ -689,7 +689,7 @@
                             "words": [
                                 {
                                     "value": "Kyleview,",
-                                    "confidence": 0.9848241209983826,
+                                    "confidence": 0.9848242402076721,
                                     "geometry": [
                                         [
                                             0.083984375,
@@ -815,7 +815,7 @@
                                 },
                                 {
                                     "value": "GB39W5PC07955609287889",
-                                    "confidence": 0.595982015132904,
+                                    "confidence": 0.5959798097610474,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -1026,7 +1026,7 @@
                                 },
                                 {
                                     "value": "each",
-                                    "confidence": 0.9996672868728638,
+                                    "confidence": 0.9996671676635742,
                                     "geometry": [
                                         [
                                             0.46484375,
@@ -1435,7 +1435,7 @@
                                 },
                                 {
                                     "value": "room-Minion",
-                                    "confidence": 0.9820070862770081,
+                                    "confidence": 0.9820079803466797,
                                     "geometry": [
                                         [
                                             0.23828125,
@@ -1533,7 +1533,7 @@
                                 },
                                 {
                                     "value": "Room",
-                                    "confidence": 0.9143511652946472,
+                                    "confidence": 0.9143517017364502,
                                     "geometry": [
                                         [
                                             0.31640625,
@@ -1575,7 +1575,7 @@
                                 },
                                 {
                                     "value": "Christmas...",
-                                    "confidence": 0.9354317784309387,
+                                    "confidence": 0.9354320764541626,
                                     "geometry": [
                                         [
                                             0.1982421875,
@@ -1645,7 +1645,7 @@
                                 },
                                 {
                                     "value": "Illusion",
-                                    "confidence": 0.6981537342071533,
+                                    "confidence": 0.6981525421142578,
                                     "geometry": [
                                         [
                                             0.2197265625,
@@ -1743,7 +1743,7 @@
                                 },
                                 {
                                     "value": "Anti-slip",
-                                    "confidence": 0.8793600797653198,
+                                    "confidence": 0.8793609142303467,
                                     "geometry": [
                                         [
                                             0.2744140625,
@@ -1897,7 +1897,7 @@
                                 },
                                 {
                                     "value": "Sheepskin",
-                                    "confidence": 0.6936630010604858,
+                                    "confidence": 0.6936650276184082,
                                     "geometry": [
                                         [
                                             0.2626953125,
@@ -1981,7 +1981,7 @@
                                 },
                                 {
                                     "value": "Kids",
-                                    "confidence": 0.5737926959991455,
+                                    "confidence": 0.5737963914871216,
                                     "geometry": [
                                         [
                                             0.3095703125,
@@ -2009,7 +2009,7 @@
                             "words": [
                                 {
                                     "value": "Play",
-                                    "confidence": 0.8983091115951538,
+                                    "confidence": 0.8983114957809448,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -2433,7 +2433,7 @@
                             "words": [
                                 {
                                     "value": "10%",
-                                    "confidence": 0.9964274764060974,
+                                    "confidence": 0.996427595615387,
                                     "geometry": [
                                         [
                                             0.4033203125,
@@ -2490,7 +2490,7 @@
                                 },
                                 {
                                     "value": "worth",
-                                    "confidence": 0.9275442361831665,
+                                    "confidence": 0.9275425672531128,
                                     "geometry": [
                                         [
                                             0.5927734375,
@@ -2800,7 +2800,7 @@
                                 },
                                 {
                                     "value": "274,42",
-                                    "confidence": 0.9949105381965637,
+                                    "confidence": 0.9949106574058533,
                                     "geometry": [
                                         [
                                             0.8525390625,
@@ -2843,7 +2843,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.6179714798927307,
+                                    "confidence": 0.6179827451705933,
                                     "geometry": [
                                         [
                                             0.3017578125,

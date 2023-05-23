@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -168,7 +168,7 @@
                             "words": [
                                 {
                                     "value": "10/11/2013",
-                                    "confidence": 0.9382087588310242,
+                                    "confidence": 0.9382079243659973,
                                     "geometry": [
                                         [
                                             0.4853515625,
@@ -352,7 +352,7 @@
                             "words": [
                                 {
                                     "value": "USCGC",
-                                    "confidence": 0.9890833497047424,
+                                    "confidence": 0.989083468914032,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -464,7 +464,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.909054160118103,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -563,7 +563,7 @@
                                 },
                                 {
                                     "value": "Sandoval",
-                                    "confidence": 0.9244751334190369,
+                                    "confidence": 0.924475371837616,
                                     "geometry": [
                                         [
                                             0.2509765625,
@@ -927,7 +927,7 @@
                                 },
                                 {
                                     "value": "Artists,",
-                                    "confidence": 0.9867014288902283,
+                                    "confidence": 0.9867011904716492,
                                     "geometry": [
                                         [
                                             0.2265625,
@@ -1039,7 +1039,7 @@
                                 },
                                 {
                                     "value": "and",
-                                    "confidence": 0.7490106225013733,
+                                    "confidence": 0.7490156292915344,
                                     "geometry": [
                                         [
                                             0.25390625,
@@ -1053,7 +1053,7 @@
                                 },
                                 {
                                     "value": "Culture",
-                                    "confidence": 0.940773606300354,
+                                    "confidence": 0.9407786726951599,
                                     "geometry": [
                                         [
                                             0.2841796875,
@@ -1096,7 +1096,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1548,7 +1548,7 @@
                             "words": [
                                 {
                                     "value": "13,47",
-                                    "confidence": 0.9502884745597839,
+                                    "confidence": 0.9502880573272705,
                                     "geometry": [
                                         [
                                             0.677734375,
@@ -1690,7 +1690,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9909058809280396,
+                                    "confidence": 0.9909060001373291,
                                     "geometry": [
                                         [
                                             0.0810546875,
@@ -1888,7 +1888,7 @@
                             "words": [
                                 {
                                     "value": "$33,03",
-                                    "confidence": 0.5806183218955994,
+                                    "confidence": 0.5806155204772949,
                                     "geometry": [
                                         [
                                             0.5771484375,
@@ -2143,7 +2143,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.9247731566429138,
+                                    "confidence": 0.9247728586196899,
                                     "geometry": [
                                         [
                                             0.3017578125,

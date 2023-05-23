@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -395,7 +395,7 @@
                                 },
                                 {
                                     "value": "Expressway",
-                                    "confidence": 0.8734339475631714,
+                                    "confidence": 0.8734336495399475,
                                     "geometry": [
                                         [
                                             0.2119140625,
@@ -409,7 +409,7 @@
                                 },
                                 {
                                     "value": "Apt.",
-                                    "confidence": 0.536776602268219,
+                                    "confidence": 0.5367749333381653,
                                     "geometry": [
                                         [
                                             0.3134765625,
@@ -577,7 +577,7 @@
                                 },
                                 {
                                     "value": "GB4/PCH318394158/4046",
-                                    "confidence": 0.37204259634017944,
+                                    "confidence": 0.37204185128211975,
                                     "geometry": [
                                         [
                                             0.138671875,
@@ -816,7 +816,7 @@
                             "words": [
                                 {
                                     "value": "Thompsonchester,",
-                                    "confidence": 0.852456271648407,
+                                    "confidence": 0.8524560332298279,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -886,7 +886,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -943,7 +943,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1296,7 +1296,7 @@
                                 },
                                 {
                                     "value": "Art",
-                                    "confidence": 0.9797351360321045,
+                                    "confidence": 0.9797353744506836,
                                     "geometry": [
                                         [
                                             0.228515625,
@@ -1324,7 +1324,7 @@
                                 },
                                 {
                                     "value": "Culture",
-                                    "confidence": 0.990509033203125,
+                                    "confidence": 0.9905091524124146,
                                     "geometry": [
                                         [
                                             0.2841796875,
@@ -1496,7 +1496,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.9515635967254639,
+                                    "confidence": 0.9515646696090698,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -1553,7 +1553,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9947860240936279,
+                                    "confidence": 0.9947861433029175,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1708,7 +1708,7 @@
                                 },
                                 {
                                     "value": "14,67",
-                                    "confidence": 0.9574263691902161,
+                                    "confidence": 0.9574264883995056,
                                     "geometry": [
                                         [
                                             0.5908203125,
@@ -1878,7 +1878,7 @@
                                 },
                                 {
                                     "value": "worth",
-                                    "confidence": 0.9924626350402832,
+                                    "confidence": 0.9924627542495728,
                                     "geometry": [
                                         [
                                             0.86328125,
@@ -1991,7 +1991,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.8032234907150269,
+                                    "confidence": 0.8032225370407104,
                                     "geometry": [
                                         [
                                             0.3017578125,

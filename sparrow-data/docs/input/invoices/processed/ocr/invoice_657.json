@@ -69,7 +69,7 @@
                                 },
                                 {
                                     "value": "65863078",
-                                    "confidence": 0.9128762483596802,
+                                    "confidence": 0.912876546382904,
                                     "geometry": [
                                         [
                                             0.212890625,
@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Mejia-Garcia",
-                                    "confidence": 0.9895817041397095,
+                                    "confidence": 0.9895815849304199,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -310,7 +310,7 @@
                             "words": [
                                 {
                                     "value": "Mcmahon-Shelton",
-                                    "confidence": 0.9493194222450256,
+                                    "confidence": 0.9493196606636047,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -450,7 +450,7 @@
                                 },
                                 {
                                     "value": "23568",
-                                    "confidence": 0.899254560470581,
+                                    "confidence": 0.89925616979599,
                                     "geometry": [
                                         [
                                             0.6220703125,
@@ -492,7 +492,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -647,7 +647,7 @@
                                 },
                                 {
                                     "value": "Jamesborough,",
-                                    "confidence": 0.9823797941207886,
+                                    "confidence": 0.9823799133300781,
                                     "geometry": [
                                         [
                                             0.12890625,
@@ -913,7 +913,7 @@
                                 },
                                 {
                                     "value": "Famicom",
-                                    "confidence": 0.9701959490776062,
+                                    "confidence": 0.9701960682868958,
                                     "geometry": [
                                         [
                                             0.2529296875,
@@ -969,7 +969,7 @@
                                 },
                                 {
                                     "value": "box",
-                                    "confidence": 0.9737247824668884,
+                                    "confidence": 0.9737244844436646,
                                     "geometry": [
                                         [
                                             0.216796875,
@@ -1025,7 +1025,7 @@
                             "words": [
                                 {
                                     "value": "controllers",
-                                    "confidence": 0.9422699213027954,
+                                    "confidence": 0.9422698020935059,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1179,7 +1179,7 @@
                             "words": [
                                 {
                                     "value": "Cosmo",
-                                    "confidence": 0.890006422996521,
+                                    "confidence": 0.8900057077407837,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1221,7 +1221,7 @@
                                 },
                                 {
                                     "value": "X",
-                                    "confidence": 0.5910326838493347,
+                                    "confidence": 0.5910340547561646,
                                     "geometry": [
                                         [
                                             0.2744140625,
@@ -1431,7 +1431,7 @@
                             "words": [
                                 {
                                     "value": "Anniversary",
-                                    "confidence": 0.5621765851974487,
+                                    "confidence": 0.5621761679649353,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1459,7 +1459,7 @@
                                 },
                                 {
                                     "value": "w/window",
-                                    "confidence": 0.7154518961906433,
+                                    "confidence": 0.7154437899589539,
                                     "geometry": [
                                         [
                                             0.25390625,
@@ -1585,7 +1585,7 @@
                             "words": [
                                 {
                                     "value": "System",
-                                    "confidence": 0.6234574317932129,
+                                    "confidence": 0.6234619617462158,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1599,7 +1599,7 @@
                                 },
                                 {
                                     "value": "Console",
-                                    "confidence": 0.6638429164886475,
+                                    "confidence": 0.6638296842575073,
                                     "geometry": [
                                         [
                                             0.1982421875,
@@ -1613,7 +1613,7 @@
                                 },
                                 {
                                     "value": "&",
-                                    "confidence": 0.671075701713562,
+                                    "confidence": 0.6710748672485352,
                                     "geometry": [
                                         [
                                             0.2548828125,
@@ -1740,7 +1740,7 @@
                             "words": [
                                 {
                                     "value": "Qty",
-                                    "confidence": 0.975296139717102,
+                                    "confidence": 0.9752962589263916,
                                     "geometry": [
                                         [
                                             0.4091796875,
@@ -1908,7 +1908,7 @@
                             "words": [
                                 {
                                     "value": "1,00",
-                                    "confidence": 0.9969346523284912,
+                                    "confidence": 0.9969347715377808,
                                     "geometry": [
                                         [
                                             0.4072265625,
@@ -2162,7 +2162,7 @@
                             "words": [
                                 {
                                     "value": "39,57",
-                                    "confidence": 0.9422608017921448,
+                                    "confidence": 0.9422607421875,
                                     "geometry": [
                                         [
                                             0.8671875,
@@ -2444,7 +2444,7 @@
                             "words": [
                                 {
                                     "value": "1249,90",
-                                    "confidence": 0.9962338805198669,
+                                    "confidence": 0.9962337613105774,
                                     "geometry": [
                                         [
                                             0.65625,

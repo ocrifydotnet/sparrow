@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -451,7 +451,7 @@
                             "words": [
                                 {
                                     "value": "South",
-                                    "confidence": 0.9289620518684387,
+                                    "confidence": 0.9289633631706238,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -591,7 +591,7 @@
                                 },
                                 {
                                     "value": "GB64WLDC58093598352721",
-                                    "confidence": 0.6798972487449646,
+                                    "confidence": 0.6798965930938721,
                                     "geometry": [
                                         [
                                             0.1376953125,
@@ -718,7 +718,7 @@
                                 },
                                 {
                                     "value": "Williams",
-                                    "confidence": 0.8954054713249207,
+                                    "confidence": 0.8954048156738281,
                                     "geometry": [
                                         [
                                             0.58984375,
@@ -788,7 +788,7 @@
                                 },
                                 {
                                     "value": "Abigail",
-                                    "confidence": 0.8962655067443848,
+                                    "confidence": 0.8962643146514893,
                                     "geometry": [
                                         [
                                             0.5615234375,
@@ -830,7 +830,7 @@
                             "words": [
                                 {
                                     "value": "Jensenmouth,",
-                                    "confidence": 0.9246396422386169,
+                                    "confidence": 0.9246398210525513,
                                     "geometry": [
                                         [
                                             0.5029296875,
@@ -900,7 +900,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.9090540409088135,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -1055,7 +1055,7 @@
                                 },
                                 {
                                     "value": "each",
-                                    "confidence": 0.9996672868728638,
+                                    "confidence": 0.9996671676635742,
                                     "geometry": [
                                         [
                                             0.46484375,
@@ -1464,7 +1464,7 @@
                                 },
                                 {
                                     "value": "Quilted",
-                                    "confidence": 0.9991377592086792,
+                                    "confidence": 0.9991376399993896,
                                     "geometry": [
                                         [
                                             0.2958984375,
@@ -1520,7 +1520,7 @@
                                 },
                                 {
                                     "value": "Princess",
-                                    "confidence": 0.9781700372695923,
+                                    "confidence": 0.9781697988510132,
                                     "geometry": [
                                         [
                                             0.2470703125,
@@ -1702,7 +1702,7 @@
                             "words": [
                                 {
                                     "value": "5'2X6'6",
-                                    "confidence": 0.9693999290466309,
+                                    "confidence": 0.9693998098373413,
                                     "geometry": [
                                         [
                                             0.14453125,
@@ -1716,7 +1716,7 @@
                                 },
                                 {
                                     "value": "Hand-Loomed",
-                                    "confidence": 0.8379256725311279,
+                                    "confidence": 0.8379254937171936,
                                     "geometry": [
                                         [
                                             0.19921875,
@@ -1744,7 +1744,7 @@
                             "words": [
                                 {
                                     "value": "Indo-Gabbeh",
-                                    "confidence": 0.9486358761787415,
+                                    "confidence": 0.9486358165740967,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1842,7 +1842,7 @@
                                 },
                                 {
                                     "value": "Rug",
-                                    "confidence": 0.9618149995803833,
+                                    "confidence": 0.9618147611618042,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -1856,7 +1856,7 @@
                                 },
                                 {
                                     "value": "Jute",
-                                    "confidence": 0.9964362382888794,
+                                    "confidence": 0.996436357498169,
                                     "geometry": [
                                         [
                                             0.1728515625,
@@ -1870,7 +1870,7 @@
                                 },
                                 {
                                     "value": "Natural",
-                                    "confidence": 0.9662423729896545,
+                                    "confidence": 0.9662421345710754,
                                     "geometry": [
                                         [
                                             0.205078125,
@@ -1884,7 +1884,7 @@
                                 },
                                 {
                                     "value": "Handmade",
-                                    "confidence": 0.9925009608268738,
+                                    "confidence": 0.9925010800361633,
                                     "geometry": [
                                         [
                                             0.2587890625,
@@ -1940,7 +1940,7 @@
                                 },
                                 {
                                     "value": "Reversible",
-                                    "confidence": 0.5659557580947876,
+                                    "confidence": 0.5659548044204712,
                                     "geometry": [
                                         [
                                             0.2587890625,
@@ -1968,7 +1968,7 @@
                             "words": [
                                 {
                                     "value": "Oval",
-                                    "confidence": 0.519173800945282,
+                                    "confidence": 0.5191742181777954,
                                     "geometry": [
                                         [
                                             0.1435546875,
@@ -2633,7 +2633,7 @@
                             "words": [
                                 {
                                     "value": "112,52",
-                                    "confidence": 0.9644990563392639,
+                                    "confidence": 0.9644986987113953,
                                     "geometry": [
                                         [
                                             0.7021484375,
@@ -2788,7 +2788,7 @@
                             "words": [
                                 {
                                     "value": "$1237,74",
-                                    "confidence": 0.7297316789627075,
+                                    "confidence": 0.7297309041023254,
                                     "geometry": [
                                         [
                                             0.8271484375,

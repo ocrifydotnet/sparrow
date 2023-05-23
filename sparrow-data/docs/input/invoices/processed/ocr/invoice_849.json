@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "value": "issue:",
-                                    "confidence": 0.9772670269012451,
+                                    "confidence": 0.9772669076919556,
                                     "geometry": [
                                         [
                                             0.1533203125,
@@ -168,7 +168,7 @@
                             "words": [
                                 {
                                     "value": "07/09/2014",
-                                    "confidence": 0.9475058913230896,
+                                    "confidence": 0.9475062489509583,
                                     "geometry": [
                                         [
                                             0.4853515625,
@@ -211,7 +211,7 @@
                             "words": [
                                 {
                                     "value": "Seller:",
-                                    "confidence": 0.9407179951667786,
+                                    "confidence": 0.9407176375389099,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -239,7 +239,7 @@
                             "words": [
                                 {
                                     "value": "Powers-Parker",
-                                    "confidence": 0.9879827499389648,
+                                    "confidence": 0.9879828691482544,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -323,7 +323,7 @@
                             "words": [
                                 {
                                     "value": "Kevinland,",
-                                    "confidence": 0.9302939772605896,
+                                    "confidence": 0.9302926659584045,
                                     "geometry": [
                                         [
                                             0.0849609375,
@@ -533,7 +533,7 @@
                             "words": [
                                 {
                                     "value": "SUMMARY",
-                                    "confidence": 0.8936416506767273,
+                                    "confidence": 0.8936430811882019,
                                     "geometry": [
                                         [
                                             0.080078125,
@@ -604,7 +604,7 @@
                             "words": [
                                 {
                                     "value": "Anderson-Lindsey",
-                                    "confidence": 0.6690394878387451,
+                                    "confidence": 0.6690399050712585,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -716,7 +716,7 @@
                             "words": [
                                 {
                                     "value": "West",
-                                    "confidence": 0.9909092783927917,
+                                    "confidence": 0.9909091591835022,
                                     "geometry": [
                                         [
                                             0.50390625,
@@ -730,7 +730,7 @@
                                 },
                                 {
                                     "value": "Paul,",
-                                    "confidence": 0.9558687806129456,
+                                    "confidence": 0.9558686017990112,
                                     "geometry": [
                                         [
                                             0.55078125,
@@ -800,7 +800,7 @@
                                 },
                                 {
                                     "value": "Id:",
-                                    "confidence": 0.9090571999549866,
+                                    "confidence": 0.909054160118103,
                                     "geometry": [
                                         [
                                             0.5380859375,
@@ -1495,7 +1495,7 @@
                                 },
                                 {
                                     "value": "[%]",
-                                    "confidence": 0.9937698245048523,
+                                    "confidence": 0.9937697052955627,
                                     "geometry": [
                                         [
                                             0.421875,
@@ -1919,7 +1919,7 @@
                             "words": [
                                 {
                                     "value": "Total",
-                                    "confidence": 0.6265870332717896,
+                                    "confidence": 0.6265906095504761,
                                     "geometry": [
                                         [
                                             0.3017578125,
