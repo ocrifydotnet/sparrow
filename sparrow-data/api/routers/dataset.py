@@ -26,8 +26,8 @@ def encode_pil_image(image: Image) -> str:
 
 
 @router.get("/dataset_info")
-async def get_dataset_info():
-    dataset = load_dataset(settings.dataset_name)
+async def get_dataset_info(dataset_name: str):
+    dataset = load_dataset(dataset_name)
 
     splits = []
     for split in dataset.keys():
@@ -46,8 +46,8 @@ async def get_dataset_info():
 
 
 @router.get("/ground_truth", response_model=ImageResponse)
-async def get_ground_truth() -> ImageResponse:
-    dataset = load_dataset(settings.dataset_name)
+async def get_ground_truth(dataset_name: str) -> ImageResponse:
+    dataset = load_dataset(dataset_name)
 
     example = dataset['test'][0]
     image = example['image']

@@ -1,0 +1,1 @@
+uvicorn endpoints:app --workers 4
