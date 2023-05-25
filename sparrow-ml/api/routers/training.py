@@ -10,45 +10,49 @@ import utils
 router = APIRouter()
 
 
-def invoke_training(max_epochs, val_check_interval, warmup_steps, model_in_use, sparrow_key):
+def invoke_training(dataset_name, model_name, max_epochs, val_check_interval, warmup_steps, model_in_use, sparrow_key):
     if sparrow_key != settings.sparrow_key:
         return {"error": "Invalid Sparrow key."}
 
     if model_in_use == 'donut':
-        processing_time = run_training_donut(max_epochs, val_check_interval, warmup_steps)
-        utils.log_stats(settings.training_stats_file, [processing_time, settings.model])
+        processing_time = run_training_donut(dataset_name, max_epochs, val_check_interval, warmup_steps)
+        utils.log_stats(settings.training_stats_file, [processing_time, model_name])
         print(f"Processing time training: {processing_time:.2f} seconds")
 
 
 @router.post("/training")
 async def run_training(background_tasks: BackgroundTasks,
+                       dataset_name: str = Form('katanaml-org/invoices-donut-data-v1'),
+                       model_name: str = Form('katanaml-org/invoices-donut-data-v1'),
                        max_epochs: int = Form(30),
                        val_check_interval: float = Form(0.4),
                        warmup_steps: int = Form(81),
                        model_in_use: str = Form('donut'),
                        sparrow_key: str = Form(None)):
 
-    background_tasks.add_task(invoke_training, max_epochs, val_check_interval, warmup_steps, model_in_use, sparrow_key)
+    background_tasks.add_task(invoke_training, dataset_name, model_name, max_epochs, val_check_interval, warmup_steps, model_in_use, sparrow_key)
 
     return {"message": "Sparrow ML training started in the background"}
 
 
-def invoke_evaluate(model_in_use, sparrow_key):
+def invoke_evaluate(dataset_name, model_name, model_in_use, sparrow_key):
     if sparrow_key != settings.sparrow_key:
         return {"error": "Invalid Sparrow key."}
 
     if model_in_use == 'donut':
-        scores, accuracy, processing_time = run_evaluate_donut()
-        utils.log_stats(settings.evaluate_stats_file, [processing_time, scores, accuracy, settings.model])
+        scores, accuracy, processing_time = run_evaluate_donut(dataset_name)
+        utils.log_stats(settings.evaluate_stats_file, [processing_time, scores, accuracy, model_name])
         print(f"Processing time evaluate: {processing_time:.2f} seconds")
 
 
 @router.post("/evaluate")
 async def run_evaluate(background_tasks: BackgroundTasks,
+                       dataset_name: str = Form('katanaml-org/invoices-donut-data-v1'),
+                       model_name: str = Form('katanaml-org/invoices-donut-data-v1'),
                        model_in_use: str = Form('donut'),
                        sparrow_key: str = Form(None)):
 
-    background_tasks.add_task(invoke_evaluate, model_in_use, sparrow_key)
+    background_tasks.add_task(invoke_evaluate, dataset_name, model_name, model_in_use, sparrow_key)
 
     return {"message": "Sparrow ML model evaluation started in the background"}
 

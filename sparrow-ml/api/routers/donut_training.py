@@ -30,14 +30,12 @@ from config import settings
 
 added_tokens = []
 
-dataset_name = settings.dataset
 base_config_name = settings.base_config
 base_processor_name = settings.base_processor
 base_model_name = settings.base_model
-model_name = settings.model
 
 @lru_cache(maxsize=1)
-def prepare_job():
+def prepare_job(dataset_name):
     print("Preparing job...")
 
     dataset = load_dataset(dataset_name)
@@ -87,7 +85,7 @@ class DonutDataset(Dataset):
     ):
         super().__init__()
 
-        model, processor, dataset, config, image_size, p1 = prepare_job()
+        model, processor, dataset, config, image_size, p1 = prepare_job(dataset_name_or_path)
 
         self.max_length = max_length
         self.split = split
@@ -160,7 +158,7 @@ class DonutDataset(Dataset):
         """
         Add special tokens to tokenizer and resize the token embeddings of the decoder
         """
-        model, processor, dataset, config, image_size, p1 = prepare_job()
+        model, processor, dataset, config, image_size, p1 = prepare_job(self.dataset)
 
         newly_added_num = processor.tokenizer.add_tokens(list_of_tokens)
         if newly_added_num > 0:
@@ -180,7 +178,7 @@ class DonutDataset(Dataset):
             labels : masked labels (model doesn't need to predict prompt and pad token)
         """
 
-        model, processor, dataset, config, image_size, p1 = prepare_job()
+        model, processor, dataset, config, image_size, p1 = prepare_job(self.dataset_name_or_path)
 
         sample = self.dataset[idx]
 
@@ -206,10 +204,10 @@ class DonutDataset(Dataset):
         return pixel_values, labels, target_sequence
 
 
-def build_data_loaders():
+def build_data_loaders(dataset_name):
     print("Building data loaders...")
 
-    model, processor, dataset, config, image_size, max_length = prepare_job()
+    model, processor, dataset, config, image_size, max_length = prepare_job(dataset_name)
 
     # we update some settings which differ from pretraining; namely the size of the images + no rotation required
     # source: https://github.com/clovaai/donut/blob/master/config/train_cord.yaml
@@ -239,13 +237,13 @@ def build_data_loaders():
 
 
 class DonutModelPLModule(pl.LightningModule):
-    def __init__(self, config, processor, model):
+    def __init__(self, config, processor, model, dataset_name):
         super().__init__()
         self.config = config
         self.processor = processor
         self.model = model
 
-        self.train_dataloader, self.val_dataloader, self.max_length = build_data_loaders()
+        self.train_dataloader, self.val_dataloader, self.max_length = build_data_loaders(dataset_name)
 
     def training_step(self, batch, batch_idx):
         pixel_values, labels, _ = batch
@@ -339,7 +337,7 @@ class PushToHubCallback(Callback):
                                     commit_message=f"Training done")
 
 
-def run_training_donut(max_epochs_param, val_check_interval_param, warmup_steps_param):
+def run_training_donut(dataset_name, max_epochs_param, val_check_interval_param, warmup_steps_param):
     worker_pid = os.getpid()
     print(f"Handling training request with worker PID: {worker_pid}")
 
@@ -364,9 +362,9 @@ def run_training_donut(max_epochs_param, val_check_interval_param, warmup_steps_
                      "verbose": False,
                      }
 
-    model, processor, dataset, config, image_size, p1 = prepare_job()
+    model, processor, dataset, config, image_size, p1 = prepare_job(dataset_name)
 
-    model_module = DonutModelPLModule(config, processor, model)
+    model_module = DonutModelPLModule(config, processor, model, dataset_name)
 
     # wandb_logger = WandbLogger(project="sparrow", name="invoices-donut-v5")
 

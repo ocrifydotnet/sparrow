@@ -29,6 +29,7 @@ def count_values(obj):
 
 @router.post("/inference")
 async def run_inference(file: Optional[UploadFile] = File(None), image_url: Optional[str] = Form(None),
+                        model_name: str = Form('katanaml-org/invoices-donut-model-v1'),
                         model_in_use: str = Form('donut'), sparrow_key: str = Form(None)):
 
     if sparrow_key != settings.sparrow_key:
@@ -44,7 +45,7 @@ async def run_inference(file: Optional[UploadFile] = File(None), image_url: Opti
         processing_time = 0
         if model_in_use == 'donut':
             result, processing_time = process_document_donut(image)
-        utils.log_stats(settings.inference_stats_file, [processing_time, count_values(result), file.filename, settings.model])
+        utils.log_stats(settings.inference_stats_file, [processing_time, count_values(result), file.filename, model_name])
         print(f"Processing time inference: {processing_time:.2f} seconds")
     elif image_url:
         # test image url: https://raw.githubusercontent.com/katanaml/sparrow/main/sparrow-data/docs/input/invoices/processed/images/invoice_10.jpg
@@ -60,7 +61,7 @@ async def run_inference(file: Optional[UploadFile] = File(None), image_url: Opti
             result, processing_time = process_document_donut(image)
         # parse file name from url
         file_name = image_url.split("/")[-1]
-        utils.log_stats(settings.inference_stats_file, [processing_time, count_values(result), file_name, settings.model])
+        utils.log_stats(settings.inference_stats_file, [processing_time, count_values(result), file_name, model_name])
         print(f"Processing time inference: {processing_time:.2f} seconds")
     else:
         result = {"info": "No input provided"}

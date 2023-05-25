@@ -38,7 +38,7 @@ async def get_dataset_info(dataset_name: str):
         splits.append(split)
 
     result = {
-        "dataset": settings.dataset_name,
+        "dataset": dataset_name,
         "splits": splits
     }
 

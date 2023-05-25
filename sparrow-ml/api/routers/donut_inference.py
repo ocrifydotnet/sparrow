@@ -8,9 +8,9 @@ import os
 
 
 @lru_cache(maxsize=1)
-def load_model():
+def load_model(model_name):
     processor = DonutProcessor.from_pretrained(settings.processor)
-    model = VisionEncoderDecoderModel.from_pretrained(settings.model)
+    model = VisionEncoderDecoderModel.from_pretrained(model_name)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)

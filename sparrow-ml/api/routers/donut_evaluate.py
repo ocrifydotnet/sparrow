@@ -17,21 +17,21 @@ locale.getpreferredencoding = lambda: "UTF-8"
 
 
 @lru_cache(maxsize=1)
-def prepare_model():
+def prepare_model(dataset_name, model_name):
     processor = DonutProcessor.from_pretrained(settings.processor)
-    model = VisionEncoderDecoderModel.from_pretrained(settings.model)
+    model = VisionEncoderDecoderModel.from_pretrained(model_name)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     model.eval()
     model.to(device)
 
-    dataset = load_dataset(settings.dataset, split="test")
+    dataset = load_dataset(dataset_name, split="test")
 
     return processor, model, device, dataset
 
 
-def run_evaluate_donut():
+def run_evaluate_donut(dataset_name):
     worker_pid = os.getpid()
     print(f"Handling evaluation request with worker PID: {worker_pid}")
 
@@ -40,7 +40,7 @@ def run_evaluate_donut():
     output_list = []
     accs = []
 
-    processor, model, device, dataset = prepare_model()
+    processor, model, device, dataset = prepare_model(dataset_name)
 
     for idx, sample in tqdm(enumerate(dataset), total=len(dataset)):
         # prepare encoder inputs
