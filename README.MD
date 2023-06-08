@@ -1,5 +1,9 @@
 # Sparrow - Data extraction from documents with ML
 
+<p align="center">
+  <img width="300" height="300" src="https://github.com/katanaml/sparrow/blob/main/sparrow-ui/assets/sparrow_logo_1.png">
+</p>
+
 ## Description
 
 Sparrow helps to extract and process data from scanned documents and pictures. It works with forms, invoices, receipts and other structured data.

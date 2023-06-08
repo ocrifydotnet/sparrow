@@ -113,6 +113,8 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
+Replace URL with your own
+
 3. OCR service
 
 ```
@@ -126,6 +128,28 @@ curl -X 'POST' \
 ```
 
 Replace URL with your own
+
+4. OCR statistics
+
+```
+curl -X 'GET' \
+  'http://127.0.0.1:8000/api-ocr/v1/sparrow-data/statistics' \
+  -H 'accept: application/json'
+```
+
+Replace URL with your own
+
+## CLI
+
+Navigate to 'cli' folder and run 'chmod +x sparrowdata'. Add to system path to make it executable globally on the system.
+
+1. OCR
+
+```
+./sparrowdata --api_url http://127.0.0.1:8000/api-ocr/v1/sparrow-data/ocr \
+              --file_path ../docs/models/donut/data/img/test/invoice_2.jpg \
+              --sparrow_key your_key
+```
 
 ## Deploy to Hugging Face Spaces
 
