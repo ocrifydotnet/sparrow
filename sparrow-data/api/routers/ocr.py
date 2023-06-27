@@ -1,5 +1,5 @@
-from fastapi import APIRouter, File, UploadFile, Form
-from typing import Optional
+from fastapi import APIRouter, File, UploadFile, Form, HTTPException, status
+from fastapi.responses import Response, JSONResponse
 from config import settings
 from PIL import Image
 import urllib.request
@@ -13,9 +13,54 @@ from pdf2image import convert_from_bytes
 import io
 import json
 from routers.ocr_utils import merge_data
+from routers.ocr_utils import store_data
+from routers.ocr_utils import get_receipt_data
+import motor.motor_asyncio
+from typing import Optional
+from pymongo import ASCENDING
 
 
 router = APIRouter()
+
+client = None
+db = None
+
+
+async def create_unique_index(db, collection_name, field):
+    # Get a reference to your collection
+    collection = db[collection_name]
+    # Create an index on the specified field
+    index_result = await collection.create_index([(field, ASCENDING)], unique=True)
+    print(f"Unique index created or already exists: {index_result}")
+
+
+async def create_ttl_index(db, collection_name, field, expire_after_seconds):
+    # Get a reference to your collection
+    collection = db[collection_name]
+    # Create an index on the specified field
+    index_result = await collection.create_index([(field, ASCENDING)], expireAfterSeconds=expire_after_seconds)
+    print(f"TTL index created or already exists: {index_result}")
+
+
+@router.on_event("startup")
+async def startup_event():
+    if "MONGODB_URL" in os.environ:
+        global client
+        global db
+        client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
+        db = client.chatgpt_plugin
+        print("Connected to MongoDB!")
+
+        await create_unique_index(db, 'uploads', 'receipt_key')
+        await create_ttl_index(db, 'uploads', 'created_at', 15*60)
+
+
+@router.on_event("shutdown")
+async def shutdown_event():
+    if "MONGODB_URL" in os.environ:
+        global client
+        client.close()
+
 
 @lru_cache(maxsize=1)
 def load_ocr_model():
@@ -58,12 +103,12 @@ def invoke_ocr(doc, content_type):
 
 @router.post("/ocr")
 async def run_ocr(file: Optional[UploadFile] = File(None), image_url: Optional[str] = Form(None),
-                  sparrow_key: str = Form(None)):
+                  post_processing: Optional[bool] = Form(False), sparrow_key: str = Form(None)):
 
     if sparrow_key != settings.sparrow_key:
         return {"error": "Invalid Sparrow key."}
 
-    result = []
+    result = None
     if file:
         if file.content_type in ["image/jpeg", "image/jpg", "image/png"]:
             doc = Image.open(BytesIO(await file.read()))
@@ -78,6 +123,11 @@ async def run_ocr(file: Optional[UploadFile] = File(None), image_url: Optional[s
 
         utils.log_stats(settings.ocr_stats_file, [processing_time, file.filename])
         print(f"Processing time OCR: {processing_time:.2f} seconds")
+
+        if post_processing and "MONGODB_URL" in os.environ:
+            print("Postprocessing...")
+            result = await store_data(result, db)
+            print(f"Stored data with key: {result}")
     elif image_url:
         # test image url: https://raw.githubusercontent.com/katanaml/sparrow/main/sparrow-data/docs/input/invoices/processed/images/invoice_10.jpg
         # test PDF: https://raw.githubusercontent.com/katanaml/sparrow/main/sparrow-data/docs/input/receipts/2021/us/bestbuy-20211211_006.pdf
@@ -99,10 +149,34 @@ async def run_ocr(file: Optional[UploadFile] = File(None), image_url: Optional[s
         file_name = image_url.split("/")[-1]
         utils.log_stats(settings.ocr_stats_file, [processing_time, file_name])
         print(f"Processing time OCR: {processing_time:.2f} seconds")
+
+        if post_processing and "MONGODB_URL" in os.environ:
+            print("Postprocessing...")
+            result = await store_data(result, db)
+            print(f"Stored data with key: {result}")
     else:
         result = {"info": "No input provided"}
 
-    return result
+    if result is None:
+        raise HTTPException(status_code=404, detail=f"Failed to process the input.")
+
+    return JSONResponse(status_code=status.HTTP_200_OK, content=result)
+
+
+@router.get("/receipt_by_id/")
+async def get_receipt_by_id(receipt_id: str, sparrow_key: str):
+    if sparrow_key != settings.sparrow_key:
+        return {"error": "Invalid Sparrow key."}
+
+    if "MONGODB_URL" in os.environ:
+        result = await get_receipt_data(receipt_id, db)
+
+        if result is None:
+            raise HTTPException(status_code=404, detail=f"Receipt {receipt_id} not found")
+
+        return result
+
+    return {"error": "No MongoDB URL provided."}
 
 
 @router.get("/statistics")

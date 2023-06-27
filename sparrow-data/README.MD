@@ -124,6 +124,7 @@ curl -X 'POST' \
   -H 'Content-Type: multipart/form-data' \
   -F 'file=' \
   -F 'image_url=https://raw.githubusercontent.com/katanaml/sparrow/main/sparrow-data/docs/input/invoices/processed/images/invoice_10.jpg' \
+  -F 'post_processing=false' \
   -F 'sparrow_key=your_key'
 ```
 
@@ -139,6 +140,16 @@ curl -X 'GET' \
 
 Replace URL with your own
 
+5. Get OCR content for ChatGPT plugin
+
+```
+curl -X 'GET' \
+  'https://katanaml-org-sparrow-data.hf.space/api-ocr/v1/sparrow-data/receipt_by_id/?receipt_id=your_id&sparrow_key=your_key' \
+  -H 'accept: application/json'
+```
+
+Replace URL with your own
+
 ## CLI
 
 Navigate to 'cli' folder and run 'chmod +x sparrowdata'. Add to system path to make it executable globally on the system.
@@ -148,6 +159,7 @@ Navigate to 'cli' folder and run 'chmod +x sparrowdata'. Add to system path to m
 ```
 ./sparrowdata --api_url https://katanaml-org-sparrow-data.hf.space/api-ocr/v1/sparrow-data/ocr \
               --file_path ../docs/models/donut/data/img/test/invoice_2.jpg \
+              --post_processing false \
               --sparrow_key your_key
 ```
 
@@ -173,6 +185,16 @@ https://huggingface.co/spaces/katanaml-org/sparrow-data
 
 ```
 https://katanaml-org-sparrow-data.hf.space/api/v1/sparrow-data/docs
+```
+
+## MongoDB connection
+
+If post_processing is set to True, then OCR results will be saved to MongoDB. You need to have MongoDB Atlas account and MongoDB Atlas token. Read more: https://docs.atlas.mongodb.com/configure-api-access/
+
+1. Set environment variable for MongoDB Atlas connection, before starting FastAPI service
+
+```
+export MONGODB_URL="mongodb+srv://sparrow:<password>@<url>/?retryWrites=true&w=majority"
 ```
 
 
