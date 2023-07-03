@@ -1,5 +1,5 @@
 from fastapi import APIRouter, File, UploadFile, Form, HTTPException, status
-from fastapi.responses import Response, JSONResponse
+from fastapi.responses import JSONResponse
 from config import settings
 from PIL import Image
 import urllib.request
@@ -12,12 +12,12 @@ from paddleocr import PaddleOCR
 from pdf2image import convert_from_bytes
 import io
 import json
-from routers.ocr_utils import merge_data
-from routers.ocr_utils import store_data
-from routers.ocr_utils import get_receipt_data
+from routers.data_utils import merge_data
+from routers.data_utils import store_data
 import motor.motor_asyncio
 from typing import Optional
 from pymongo import ASCENDING
+from pymongo.errors import DuplicateKeyError
 
 
 router = APIRouter()
@@ -26,12 +26,9 @@ client = None
 db = None
 
 
-async def create_unique_index(db, collection_name, field):
-    # Get a reference to your collection
-    collection = db[collection_name]
-    # Create an index on the specified field
-    index_result = await collection.create_index([(field, ASCENDING)], unique=True)
-    print(f"Unique index created or already exists: {index_result}")
+async def create_unique_index(collection, *fields):
+    index_fields = [(field, 1) for field in fields]
+    return await collection.create_index(index_fields, unique=True)
 
 
 async def create_ttl_index(db, collection_name, field, expire_after_seconds):
@@ -49,10 +46,14 @@ async def startup_event():
         global db
         client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
         db = client.chatgpt_plugin
-        print("Connected to MongoDB!")
 
-        await create_unique_index(db, 'uploads', 'receipt_key')
+        index_result = await create_unique_index(db['uploads'], 'receipt_key')
+        print(f"Unique index created or already exists: {index_result}")
+        index_result = await create_unique_index(db['receipts'], 'user', 'receipt_key')
+        print(f"Unique index created or already exists: {index_result}")
         await create_ttl_index(db, 'uploads', 'created_at', 15*60)
+
+        print("Connected to MongoDB from OCR!")
 
 
 @router.on_event("shutdown")
@@ -126,7 +127,10 @@ async def run_ocr(file: Optional[UploadFile] = File(None), image_url: Optional[s
 
         if post_processing and "MONGODB_URL" in os.environ:
             print("Postprocessing...")
-            result = await store_data(result, db)
+            try:
+                result = await store_data(result, db)
+            except DuplicateKeyError:
+                return HTTPException(status_code=400, detail=f"Duplicate data.")
             print(f"Stored data with key: {result}")
     elif image_url:
         # test image url: https://raw.githubusercontent.com/katanaml/sparrow/main/sparrow-data/docs/input/invoices/processed/images/invoice_10.jpg
@@ -152,31 +156,18 @@ async def run_ocr(file: Optional[UploadFile] = File(None), image_url: Optional[s
 
         if post_processing and "MONGODB_URL" in os.environ:
             print("Postprocessing...")
-            result = await store_data(result, db)
+            try:
+                result = await store_data(result, db)
+            except DuplicateKeyError:
+                return HTTPException(status_code=400, detail=f"Duplicate data.")
             print(f"Stored data with key: {result}")
     else:
         result = {"info": "No input provided"}
 
     if result is None:
-        raise HTTPException(status_code=404, detail=f"Failed to process the input.")
+        raise HTTPException(status_code=400, detail=f"Failed to process the input.")
 
     return JSONResponse(status_code=status.HTTP_200_OK, content=result)
-
-
-@router.get("/receipt_by_id/")
-async def get_receipt_by_id(receipt_id: str, sparrow_key: str):
-    if sparrow_key != settings.sparrow_key:
-        return {"error": "Invalid Sparrow key."}
-
-    if "MONGODB_URL" in os.environ:
-        result = await get_receipt_data(receipt_id, db)
-
-        if result is None:
-            raise HTTPException(status_code=404, detail=f"Receipt {receipt_id} not found")
-
-        return result
-
-    return {"error": "No MongoDB URL provided."}
 
 
 @router.get("/statistics")
