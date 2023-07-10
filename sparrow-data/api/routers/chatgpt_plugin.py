@@ -24,7 +24,7 @@ async def startup_event():
     if "MONGODB_URL" in os.environ:
         global client
         global db
-        client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
+        client = motor.motor_asyncio.AsyncIOMotorClient(os.environ.get("MONGODB_URL"))
         db = client.chatgpt_plugin
         print("Connected to MongoDB from ChatGPT plugin!")
 
@@ -62,6 +62,11 @@ async def run_store_receipt_db(chatgpt_user: str = Form(None), receipt_id: str =
     print(f"Storing receipt {receipt_id} for user {chatgpt_user}...")
 
     if "MONGODB_URL" in os.environ:
+        try:
+            json.loads(receipt_content)
+        except json.decoder.JSONDecodeError:
+            return HTTPException(status_code=400, detail=f"Receipt content is not valid JSON.")
+
         try:
             result = await store_receipt_db_data(chatgpt_user, receipt_id, receipt_content, db)
         except PyMongoError:
